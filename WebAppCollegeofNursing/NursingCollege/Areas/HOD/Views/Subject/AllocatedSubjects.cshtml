@@ -1,0 +1,61 @@
+﻿@model IEnumerable<ModelLayer.SubjectAllocatedVM>
+
+@{
+    ViewBag.Title = "AllocatedSubjects";
+}
+
+<h2 class="text-center">Allocated Subjects</h2>
+
+
+ 
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.StartPeriod)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EndPeriod)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Batch)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Year)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SubjectName)
+        </th>
+        <th>
+            @Html.DisplayName("Faculty")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.StartPeriod)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EndPeriod)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Batch)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Year)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SubjectName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Teacher)
+        </td>
+        <td>
+            @Html.ActionLink("Edit Allocation", "EditAllocation", new { id = item.Id }, new { @class = "btn btn-primary" })
+            @Html.ActionLink("DeAllocate Subject", "DeAllocateSubject", new { id = item.Id }, new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>

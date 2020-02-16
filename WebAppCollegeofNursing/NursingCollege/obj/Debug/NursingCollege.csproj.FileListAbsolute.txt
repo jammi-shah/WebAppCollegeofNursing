@@ -1,0 +1,818 @@
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\NursingCollege.dll.config
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\NursingCollege.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\NursingCollege.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\csc.exe
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\csc.exe.config
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\csc.rsp
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\csi.exe
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\csi.exe.config
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\csi.rsp
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\Microsoft.Managed.Core.targets
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.AppContext.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.Collections.Immutable.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.Console.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.IO.Compression.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.IO.FileSystem.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.IO.Pipes.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.Reflection.Metadata.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.Security.AccessControl.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.Security.Claims.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.Security.Principal.Windows.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.ValueTuple.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.Xml.XmlDocument.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.Xml.XPath.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\vbc.exe
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\vbc.exe.config
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\vbc.rsp
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\VBCSCompiler.exe
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\roslyn\VBCSCompiler.exe.config
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Antlr3.Runtime.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\BLL.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\EntityFramework.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\EntityFramework.SqlServer.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Microsoft.Web.Infrastructure.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\ModelLayer.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Newtonsoft.Json.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\System.Diagnostics.DiagnosticSource.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\System.Web.Helpers.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\System.Web.Mvc.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\System.Web.Optimization.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\System.Web.Razor.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\System.Web.WebPages.Deployment.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\System.Web.WebPages.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\System.Web.WebPages.Razor.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\WebGrease.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\BLL.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\ModelLayer.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\EntityFramework.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\EntityFramework.SqlServer.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\System.Web.Helpers.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\System.Web.Mvc.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\System.Web.Optimization.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\System.Web.Razor.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\System.Web.WebPages.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\System.Web.WebPages.Deployment.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\System.Web.WebPages.Razor.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Newtonsoft.Json.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Antlr3.Runtime.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\System.Diagnostics.DiagnosticSource.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\obj\Debug\NursingCollege.csprojAssemblyReference.cache
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\obj\Debug\NursingCollege.csproj.CoreCompileInputs.cache
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\obj\Debug\NursingCollege.csproj.CopyComplete
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\obj\Debug\NursingCollege.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\obj\Debug\NursingCollege.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\DAL.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\DAL.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\DAL.dll.config
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Microsoft.Owin.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Microsoft.Owin.Security.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Owin.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Microsoft.Owin.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\NursingCollege\bin\Microsoft.Owin.Security.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\NursingCollege.dll.config
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\NursingCollege.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\NursingCollege.pdb
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\csc.exe
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\csc.exe.config
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\csc.rsp
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\csi.exe
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\csi.exe.config
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\csi.rsp
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.AppContext.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.Console.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.IO.Compression.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.Security.Claims.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.ValueTuple.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\vbc.exe
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\vbc.exe.config
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\vbc.rsp
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\VBCSCompiler.exe
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Antlr3.Runtime.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\BLL.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\EntityFramework.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\EntityFramework.SqlServer.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Microsoft.Owin.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Microsoft.Owin.Security.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\ModelLayer.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Newtonsoft.Json.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Owin.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\System.Web.Helpers.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\System.Web.Mvc.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\System.Web.Optimization.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\System.Web.Razor.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\System.Web.WebPages.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\System.Web.WebPages.Razor.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\WebGrease.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\DAL.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\BLL.pdb
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\ModelLayer.pdb
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\EntityFramework.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\EntityFramework.SqlServer.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Microsoft.Owin.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Microsoft.Owin.Security.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\System.Web.Helpers.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\System.Web.Mvc.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\System.Web.Optimization.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\System.Web.Razor.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\System.Web.WebPages.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\System.Web.WebPages.Razor.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Newtonsoft.Json.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Antlr3.Runtime.pdb
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\DAL.pdb
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\bin\DAL.dll.config
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\obj\Debug\NursingCollege.csprojResolveAssemblyReference.cache
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\obj\Debug\NursingCollege.dll
+C:\Users\Shahid\Desktop\NursingCollege\NursingCollege\obj\Debug\NursingCollege.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\NursingCollege.dll.config
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\NursingCollege.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\NursingCollege.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\csc.exe
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\csc.exe.config
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\csc.rsp
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\csi.exe
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\csi.exe.config
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\csi.rsp
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.Managed.Core.targets
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.AppContext.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Collections.Immutable.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Console.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.Compression.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.FileSystem.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.Pipes.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Reflection.Metadata.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.AccessControl.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Claims.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Principal.Windows.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.ValueTuple.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.XmlDocument.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.XPath.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\vbc.exe
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\vbc.exe.config
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\vbc.rsp
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\VBCSCompiler.exe
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\roslyn\VBCSCompiler.exe.config
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Antlr3.Runtime.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\BLL.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\EntityFramework.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\EntityFramework.SqlServer.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Security.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Microsoft.Web.Infrastructure.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\ModelLayer.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Newtonsoft.Json.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Owin.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\System.Diagnostics.DiagnosticSource.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\System.Web.Helpers.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\System.Web.Mvc.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\System.Web.Optimization.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\System.Web.Razor.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Deployment.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Razor.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\WebGrease.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\DAL.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\BLL.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\ModelLayer.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\EntityFramework.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\EntityFramework.SqlServer.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Security.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\System.Web.Helpers.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\System.Web.Mvc.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\System.Web.Optimization.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\System.Web.Razor.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Deployment.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Razor.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Newtonsoft.Json.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Antlr3.Runtime.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\System.Diagnostics.DiagnosticSource.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\DAL.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\bin\DAL.dll.config
+D:\College Projects\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.csprojAssemblyReference.cache
+D:\College Projects\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.csproj.CoreCompileInputs.cache
+D:\College Projects\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.csproj.CopyComplete
+D:\College Projects\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.pdb
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\NursingCollege.dll.config
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\NursingCollege.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\NursingCollege.pdb
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\csc.exe
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\csc.exe.config
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\csc.rsp
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\csi.exe
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\csi.exe.config
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\csi.rsp
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.AppContext.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Console.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.Compression.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Claims.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.ValueTuple.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\vbc.exe
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\vbc.exe.config
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\vbc.rsp
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\VBCSCompiler.exe
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Antlr3.Runtime.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\BLL.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\EntityFramework.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\EntityFramework.SqlServer.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Security.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\ModelLayer.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Newtonsoft.Json.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Owin.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\System.Web.Helpers.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\System.Web.Mvc.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\System.Web.Optimization.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\System.Web.Razor.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Razor.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\WebGrease.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\DAL.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\BLL.pdb
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\ModelLayer.pdb
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\EntityFramework.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\EntityFramework.SqlServer.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Security.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\System.Web.Helpers.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\System.Web.Mvc.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\System.Web.Optimization.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\System.Web.Razor.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Razor.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Newtonsoft.Json.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Antlr3.Runtime.pdb
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\bin\DAL.pdb
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.csprojResolveAssemblyReference.cache
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.pdb
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\NursingCollege.dll.config
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\NursingCollege.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\NursingCollege.pdb
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\csc.exe
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\csc.exe.config
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\csc.rsp
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\csi.exe
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\csi.exe.config
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\csi.rsp
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.Managed.Core.targets
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.AppContext.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Collections.Immutable.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Console.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.Compression.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.FileSystem.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.Pipes.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Reflection.Metadata.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.AccessControl.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Claims.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Principal.Windows.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.ValueTuple.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.XmlDocument.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.XPath.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\vbc.exe
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\vbc.exe.config
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\vbc.rsp
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\VBCSCompiler.exe
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\roslyn\VBCSCompiler.exe.config
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Antlr3.Runtime.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\BLL.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\EntityFramework.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\EntityFramework.SqlServer.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Security.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Microsoft.Web.Infrastructure.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\ModelLayer.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Newtonsoft.Json.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Owin.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\System.Diagnostics.DiagnosticSource.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\System.Web.Helpers.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\System.Web.Mvc.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\System.Web.Optimization.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\System.Web.Razor.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Deployment.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Razor.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\WebGrease.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\DAL.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\BLL.pdb
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\ModelLayer.pdb
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\EntityFramework.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\EntityFramework.SqlServer.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Security.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\System.Web.Helpers.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\System.Web.Mvc.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\System.Web.Optimization.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\System.Web.Razor.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Deployment.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Razor.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Newtonsoft.Json.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Antlr3.Runtime.pdb
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\System.Diagnostics.DiagnosticSource.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\DAL.pdb
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\bin\DAL.dll.config
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.csprojAssemblyReference.cache
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.csproj.CoreCompileInputs.cache
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.csproj.CopyComplete
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.pdb
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\NursingCollege.dll.config
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\NursingCollege.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\NursingCollege.pdb
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\csc.exe
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\csc.exe.config
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\csc.rsp
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\csi.exe
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\csi.exe.config
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\csi.rsp
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.AppContext.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Console.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.Compression.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Claims.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.ValueTuple.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\vbc.exe
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\vbc.exe.config
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\vbc.rsp
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\VBCSCompiler.exe
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Antlr3.Runtime.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\BLL.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\EntityFramework.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\EntityFramework.SqlServer.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Security.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\ModelLayer.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Newtonsoft.Json.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Owin.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.Helpers.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.Mvc.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.Optimization.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.Razor.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Razor.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\WebGrease.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\DAL.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\BLL.pdb
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\ModelLayer.pdb
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\EntityFramework.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\EntityFramework.SqlServer.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Security.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.Helpers.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.Mvc.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.Optimization.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.Razor.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Razor.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Newtonsoft.Json.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Antlr3.Runtime.pdb
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\DAL.pdb
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.csprojResolveAssemblyReference.cache
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\NursingCollege.dll.config
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\NursingCollege.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\NursingCollege.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\csc.exe
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\csc.exe.config
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\csc.rsp
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\csi.exe
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\csi.exe.config
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\csi.rsp
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.AppContext.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Console.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.Compression.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Claims.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.ValueTuple.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\vbc.exe
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\vbc.exe.config
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\vbc.rsp
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\VBCSCompiler.exe
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Antlr3.Runtime.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\BLL.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\EntityFramework.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\EntityFramework.SqlServer.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Security.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\ModelLayer.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Newtonsoft.Json.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Owin.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.Helpers.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.Mvc.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.Optimization.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.Razor.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Razor.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\WebGrease.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\DAL.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\BLL.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\ModelLayer.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\EntityFramework.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\EntityFramework.SqlServer.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.Owin.Security.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.Helpers.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.Mvc.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.Optimization.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.Razor.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Web.WebPages.Razor.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Newtonsoft.Json.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Antlr3.Runtime.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\bin\DAL.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.csprojResolveAssemblyReference.cache
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\NursingCollege\obj\Debug\NursingCollege.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\NursingCollege.dll.config
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\NursingCollege.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\NursingCollege.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\csc.exe
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\csc.exe.config
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\csc.rsp
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\csi.exe
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\csi.exe.config
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\csi.rsp
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.AppContext.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.Console.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.IO.Compression.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.Security.Claims.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.ValueTuple.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\vbc.exe
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\vbc.exe.config
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\vbc.rsp
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\VBCSCompiler.exe
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Antlr3.Runtime.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\BLL.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\EntityFramework.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\EntityFramework.SqlServer.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Microsoft.Owin.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Microsoft.Owin.Security.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\ModelLayer.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Newtonsoft.Json.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Owin.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\System.Web.Helpers.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\System.Web.Mvc.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\System.Web.Optimization.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\System.Web.Razor.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\System.Web.WebPages.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\System.Web.WebPages.Razor.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\WebGrease.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\DAL.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\BLL.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\ModelLayer.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\EntityFramework.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\EntityFramework.SqlServer.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Microsoft.Owin.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Microsoft.Owin.Security.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\System.Web.Helpers.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\System.Web.Mvc.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\System.Web.Optimization.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\System.Web.Razor.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\System.Web.WebPages.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\System.Web.WebPages.Razor.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Newtonsoft.Json.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Antlr3.Runtime.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\bin\DAL.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\obj\Debug\NursingCollege.csprojResolveAssemblyReference.cache
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\obj\Debug\NursingCollege.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects\LiveCollegeProjects 2\NursingCollege\obj\Debug\NursingCollege.pdb

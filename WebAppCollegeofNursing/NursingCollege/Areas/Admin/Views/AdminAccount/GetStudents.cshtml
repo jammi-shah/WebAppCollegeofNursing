@@ -1,0 +1,79 @@
+﻿@model IEnumerable<ModelLayer.UserAccount>
+
+@{
+    ViewBag.Title = "Manage Students";
+}
+
+<h2>
+    Manage Students
+</h2>
+<br />
+<br />
+<table class="table table-striped table-condensed">
+    <tr>
+        <th>
+            @Html.DisplayName("Registration Number")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Student.RollNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Student.Batch)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContactNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Department.DeptName)
+        </th>
+       
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserCode)
+
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Student.RollNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Student.Batch)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Department.DeptName)
+            </td>
+          
+            <td>
+               @if(item.IsActive==true)
+               {
+                   @Html.ActionLink("Block", "BlockUser", new {id=item.Id }, new {@class="btn btn-danger btn-block" })
+               }
+                else
+                {
+                    @Html.ActionLink("UnBlock", "BlockUser", new { id = item.Id }, new { @class = "btn btn-success btn-block" })
+                }
+            </td>
+
+        </tr>
+    }
+
+</table>

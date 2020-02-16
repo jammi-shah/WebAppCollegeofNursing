@@ -1,0 +1,52 @@
+﻿@model ModelLayer.StudyMaterial
+
+@{
+    ViewBag.Title = "DeleteMaterial";
+    
+}
+
+
+
+<div>
+    <h2>Delete Material</h2>
+    
+    <hr />
+   
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Topic)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Topic)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Subject")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject.SubName)
+        </dd>
+
+      
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions">
+            <input type="submit" value="Delete" class="btn btn-primary btn-block"  /> 
+           
+        </div>
+    }
+</div>

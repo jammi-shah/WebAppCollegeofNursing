@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nursing College</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/simple-line-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="~/Content/Adminstyles.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-2.2.4.min.js"></script>
+    <link href="~/Assets/CustomStyleSheet.css" rel="stylesheet" />
+    <link href="~/Assets/LayoutStyleSheet.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/MyScripts/Scripts.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+
+
+
+<body class="sidebar-fixed header-fixed">
+    <div class="page-wrapper">
+        <nav class="navbar page-header">
+            <a href="#" class="btn btn-link sidebar-mobile-toggle d-md-none mr-auto">
+                <i class="fa fa-bars"></i>
+            </a>
+
+
+            <a class="navbar-brand" href="#">
+                <marquee>Welcome @User.Identity.Name</marquee>
+            </a>
+
+            <a href="#" class="btn  sidebar-toggle d-md-down-none">
+                <i class="fa fa-bars"></i>
+            </a>
+            @{
+                HttpCookie cookie = Request.Cookies["UserData"];
+                string imagePath = cookie["ImagePath"];
+            }
+            <ul class="navbar-nav ml-auto">
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="@Url.Content(imagePath)" class="avatar avatar-sm" id="dpImage" alt="DP">
+                        <span id="profileName" class="small ml-1 d-md-down-none text-capitalize font-weight-bold"></span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <div class="dropdown-header">Account</div>
+
+                        <a href="@Url.Action("Profile",new {Controller="EmployeeProfile",Area="" })" class="dropdown-item">
+                            <i class="fa fa-user"></i> Profile
+                        </a>
+                        <a href="@Url.Action("EditProfile",new {Controller="EmployeeProfile",Area="" })" class="dropdown-item">
+                            <i class="fa fa-edit"></i> Edit Profile
+                        </a>
+                        <a href="@Url.Action("ChangePasword",new {Controller="EmployeeProfile",Area="" })" class="dropdown-item">
+                            <i class="fa fa-key"></i> Change Password
+                        </a>
+                        <a href="@Url.Action("Logout",new {Controller="Account",Area="" })" class="dropdown-item">
+                            <i class="fa fa-sign-out-alt"></"></i> Logout
+                        </a>
+
+
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="main-container">
+            <div class="sidebar">
+                <nav class="sidebar-nav">
+                    <ul class="nav">
+                       
+
+                        <li class="nav-item">
+                            <a href="@Url.Action("index",new {area="Hod",controller="HodHome" })" class="nav-link">
+                                <i class="fa fa-home"></i> Home
+                            </a>
+                            </li>
+                        <li class="nav-item">
+                            <a href="@Url.Action("index", new { Area = "", Controller = "Chatroom" })" class="nav-link ">
+                                <i class="fas fa-comments"></i> Chat
+                            </a>
+
+                        </li>
+                        <li class="nav-item nav-dropdown">
+                            <a href="#" class="nav-link nav-dropdown-toggle nav-link ">
+                                <i class="fas fa-poll-h"></i> Result <i class="fa fa-caret-left"></i>
+                            </a>
+
+                            <ul class="nav-dropdown-items">
+                                <li class="nav-dropdown-item">
+                                    <a href="@Url.Action("AddResult",new {area="",controller="AttendanceAndResult" })" class="nav-link">
+                                        <i class="fas fa-poll-h"></i> Add Result
+                                    </a>
+
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="@Url.Action("CheckResult",new {Area="",Controller="AttendanceAndResult" })" class="nav-link">
+                                        <i class="fas fa-poll-h"></i> CheckResult
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item nav-dropdown">
+                            <a href="#" class="nav-link nav-dropdown-toggle nav-link ">
+                                <i class="far fa-cash-register"></i> Attendance <i class="fa fa-caret-left"></i>
+                            </a>
+
+                            <ul class="nav-dropdown-items">
+                                <li class="nav-dropdown-item">
+                                    <a href="@Url.Action("GetStudentsByClass",new {area="",controller="AttendanceAndResult" })" class="nav-link">
+                                        <i class="far fa-cash-register"></i> Add Attendance
+                                    </a>
+
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a href="@Url.Action("CheckAttendance",new {Area="",Controller="AttendanceAndResult" })" class="nav-link">
+                                        <i class="far fa-cash-register"></i> Check Attendance
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item nav-dropdown">
+                            <a href="#" class="nav-link nav-dropdown-toggle nav-link " >
+                                <i class="far fa-edit"></i> Subject <i class="fa fa-caret-left"></i>
+                            </a>
+
+                            <ul class="nav-dropdown-items">
+                                <li class="nav-item">
+                                    <a href="@Url.Action("AddSubject",new {Area="HOD",Controller="Subject" })" class="nav-link">
+                                        <i class="fas fa-user-minus"></i>  Add Subject
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="@Url.Action("GetSubjects",new {Area="HOD",Controller="Subject" })" class="nav-link">
+                                        <i class="fas fa-user-minus"></i> Subjects
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="@Url.Action("AllocatedSubjects",new {Area="HOD",Controller="Subject" })" class="nav-link">
+                                        <i class="fas fa-user-minus"></i> Allocated Subject
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+
+                  
+                        <li class="nav-item nav-dropdown">
+                            <a href="#" class="nav-link nav-dropdown-toggle nav-link ">
+                                <i class="fa fa-user-circle"></i> Study Material <i class="fa fa-caret-left"></i>
+                            </a>
+
+                            <ul class="nav-dropdown-items">
+                                <li class="nav-item">
+                                    <a href="@Url.Action("AddStudyMaterial",new {Area="",Controller="Studymaterials" })" class="nav-link">
+                                        <i class="fa fa-plus-circle"></i>Add Study Material
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="@Url.Action("GetStudyMaterial",new {Area="",Controller="Studymaterials" })" class="nav-link">
+                                        <i class="fas fa-user-minus"></i> StudyMaterial
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="@Url.Action("GetMyStudyMaterial",new {Area="",Controller="Studymaterials" })" class="nav-link">
+                                        <i class="fas fa-user-minus"></i> My Study Materials
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                      
+                        @*<li class="nav-item nav-dropdown">
+                            <a href="#" class="nav-link nav-dropdown-toggle">
+                                <i class="fa fa-upload"></i> Profile <i class="fa fa-caret-left"></i>
+                            </a>*@
+
+                            @*<ul class="nav-dropdown-items">
+                                <li class="nav-item">
+                                    <a href="@Url.Action("Profile",new {Controller="EmployeeProfile",Area="" })" class="dropdown-item">
+                                        <i class="fa fa-user"></i> Profile
+                                    </a>
+                                </li>
+                                <li>
+                                    </a>
+                                    <a href="@Url.Action("EditProfile",new {Controller="EmployeeProfile",Area="" })" class="dropdown-item">
+                                        <i class="fa fa-edit"></i> Edit Profile
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("ChangePassword",new {Controller="EmployeeProfile",Area="" })" class="dropdown-item">
+                                        <i class="fa fa-key"></i> Change Password
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Logout",new {Controller="Account",Area="" })" class="dropdown-item">
+                                        <i class="fa fa-sign-out-alt"></"></i> Logout
+                                    </a>
+
+                                </li>
+                            </ul>*@
+                        </li>
+
+
+
+                    </ul>
+                </nav>
+            </div>
+
+
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+
+
+                        @RenderBody()
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="~/Scripts/popper.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/carbon.js"></script>
+    <script src="~/Scripts/demo.js"></script>
+
+
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>
+
+
+
+
+
+
+
+

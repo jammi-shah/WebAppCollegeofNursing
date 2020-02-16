@@ -1,0 +1,70 @@
+﻿@model IEnumerable<ModelLayer.UserAccount>
+
+@{
+    ViewBag.Title = "GetAllFaculties";
+}
+
+<h2>Faculties</h2>
+
+<table class="table table-borderless">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Parentage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContactNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+       
+        <th>
+            @Html.DisplayNameFor(model => model.Department.DeptName)
+        </th>
+  
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Parentage)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gender)
+        </td>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContactNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+      
+        <td>
+            @Html.DisplayFor(modelItem => item.Department.DeptName)
+        </td>
+       <td>
+           <img src="@Url.Content(item.ImagePath)" alt="No Image" width="120" height="100" />
+       </td>
+
+    </tr>
+}
+
+</table>

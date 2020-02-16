@@ -1,0 +1,164 @@
+﻿
+@{
+    ViewBag.Title = "Add Result";
+
+}
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<style>
+    .spinner {
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%, -50%);
+    }
+</style>
+<div class="glyphicon-text-color">
+  
+<script>
+    function AddResult(studentId, subId, id) {
+
+        $(`#paper1${studentId}`).val()
+        var result = {
+            Id: id,
+            StudentId: studentId,
+            SubId: subId,
+            Paper1: $(`#paper1${studentId}`).val(),
+            Paper2: $(`#paper2${studentId}`).val(),
+            Paper3: $(`#paper3${studentId}`).val(),
+            ModelPaper: $(`#ModelPaper${studentId}`).val(),
+            PPT: $(`#PPT${studentId}`).val(),
+            Assignment: $(`#Assignment${studentId}`).val(),
+            ClassPresentation: $(`#ClassPresentation${studentId}`).val(),
+            Attendence: $(`#Attendence${studentId}`).val(),
+
+        }
+        $("#loader").show();
+        $.ajax({
+
+            url: "/AttendanceAndResult/AddResult",
+            method: "post",
+            data: result,
+            success: function () {
+                $("#loader").hide();
+            },
+            error: function (xhr) {
+                $("#loader").hide();
+            }
+
+
+
+        })
+    }
+</script>
+
+<div>
+    <label class="alert-dark">Batch</label>
+
+    @Html.DropDownList("Batch", null, "Select Batch", new { @class = "form-control" })
+
+
+    <label class="alert-dark">Subject</label>
+    @Html.DropDownList("SubjectId", null, "Select Subject", new { @class = "form-control" })
+
+    <input type="button" id="btnSearch" class="btn-block btn-primary" value="Get Students" />
+</div>
+<div>
+    </div>
+
+
+</div>
+<div class="spinner collapse" id="loader">
+    <img src="~/Images/ezgif-1-a2b87b265e.gif" />
+</div>
+<div class="container">
+    <table class="table table-responsive">
+        <tr>
+            <th>
+                RollNo
+            </th>
+            <th>
+                Name
+            </th>
+
+            <th>
+                Paper 1
+            </th>
+            <th>
+                Paper 2
+            </th>
+            <th>
+                Paper 3
+            </th>
+            <th>
+                ModelPaper
+            </th>
+            <th>
+                Assignment
+            </th>
+            <th>
+                PPT
+            </th>
+            <th>
+                Class Presentation
+            </th>
+            <th>
+                Attendance
+            </th>
+            <th>
+                Action
+            </th>
+
+        </tr>
+        <tbody id="tableBody"></tbody>
+    </table>
+</div>
+
+<script>
+    $(document).ready(function () {
+
+
+
+        $("#btnSearch").click(function () {
+            $("#loader").show();
+            $.ajax({
+                url: "/AttendanceAndResult/GetStudentsForResult",
+                data: { batch: $("#Batch").val(), subjectId: $("#SubjectId").val() },
+                method: "get",
+                dataType: "json",
+                success: function (students) {
+
+                    var tableBody = $("#tableBody");
+                    tableBody.empty();
+                    $.each(students, function (index, student) {
+                        tableBody.append(`<tr>
+
+                                                    <td>${student.RollNo}</td>
+                                                    <td>${student.Name}</td>
+<td><input type="text" name="paper1" id="paper1${student.StudentId}" value="${student.Paper1}" /></td>
+<td><input type="text" name="paper1" id="paper2${student.StudentId}" value="${student.Paper2}" /></td>
+<td><input type="text" name="paper1" id="paper3${student.StudentId}" value="${student.Paper3}" /></td>
+<td><input type="text" name="paper1" id="ModelPaper${student.StudentId}" value="${student.ModelPaper}" /></td>
+<td><input type="text" name="paper1" id="Assignment${student.StudentId}" value="${student.Assignment}" /></td>
+<td><input type="text" name="paper1" id="PPT${student.StudentId}" value="${student.PPT}" /></td>
+<td><input type="text" name="paper1" id="ClassPresentation${student.StudentId}" value="${student.ClassPresentation}" /></td>
+<td><input type="text" name="paper1" id="Attendence${student.StudentId}" value="${student.Attendence}" /></td>
+<td><input type="button" onclick="AddResult(${student.StudentId},${student.SubId},${student.Id})" class="btn btn-primary" value="Add Result" /></td>
+
+</tr>`)
+                        $("#loader").hide();
+                    });
+
+                },
+                error: function (xhr) {
+                    alert(xhr.responseText);
+                }
+
+
+
+            });
+        });
+
+
+    })
+</script>

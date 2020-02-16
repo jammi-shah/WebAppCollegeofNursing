@@ -1,0 +1,58 @@
+﻿@model IEnumerable<ModelLayer.Subject>
+
+@{
+    ViewBag.Title = "GetSubjects";
+}
+
+@if(TempData["Error"]!=null)
+{
+    <div class="text-center alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+<h2 class="text-center">Subjects</h2>
+
+<p>
+    @Html.ActionLink("Add New Subject", "AddSubject")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SubCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SubName)
+        </th>
+        <th>
+            @Html.DisplayName("Class")
+        </th>
+        <th>
+            @Html.DisplayName("Department")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SubCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SubName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClassInfo.ClassName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Department.DeptName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditSubject", new { id=item.Id },new { @class="btn btn-primary" }) 
+            @Html.ActionLink("Delete", "DeleteSubject", new { id = item.Id }, new { @class = "btn btn-danger" })
+            @Html.ActionLink("Allocate Teacher", "SubjectAllocation", new { id=item.Id }, new { @class = "btn btn-success" }) 
+           
+        </td>
+    </tr>
+}
+
+</table>

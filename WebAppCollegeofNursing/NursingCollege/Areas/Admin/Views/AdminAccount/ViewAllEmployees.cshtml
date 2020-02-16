@@ -1,0 +1,74 @@
+﻿@model IEnumerable<ModelLayer.UserAccount>
+
+@{
+    ViewBag.Title = "ViewAllEmployees";
+}
+
+<table class="table table-striped table-condensed">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UserCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Employee.Designation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Employee.DOJ)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContactNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Department.DeptName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserRole)
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserCode)
+              
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Employee.Designation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Employee.DOJ)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Department.DeptName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserRole)
+            </td>
+            <td>
+                <a class="btn btn-primary btn-sm" href="@Url.Action("EditEmployee", "AdminAccount", new { id=item.Id })"><i class="glyphicon glyphicon-pencil"></i></a>&nbsp;
+                <a class="btn btn-primary btn-sm" href="@Url.Action("EmployeeDetails", "AdminAccount", new { id=item.Id })">Details</a>&nbsp;
+                <a class="btn btn-danger btn-sm" href="@Url.Action("DeleteEmployee", "AdminAccount", new { id=item.Id })"><i class="glyphicon glyphicon-trash"></i></a>
+            </td>
+
+        </tr>
+    }
+
+</table>

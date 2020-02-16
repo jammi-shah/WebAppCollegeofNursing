@@ -1,0 +1,22 @@
+﻿@model ModelLayer.Event
+
+@{
+    ViewBag.Title = "EventDetails";
+}
+
+<div>
+    <hr />
+    <div class="text-center">
+        <h4 style="color:#ffffff;">@Convert.ToDateTime(Model.EventDate).ToShortDateString()</h4>
+    </div>
+    <div class="text-center" style="margin-top:30px">
+        <h6 style="color:#ffffff;">
+            @Model.Description
+        </h6>
+    </div>
+   
+    <div class="text-center img-fluid" style="margin-top:30px">
+        <img src="@Url.Content(Model.ImagePath)" alt="No Image" width="800" height="600" />
+    </div>
+      
+</div>

@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NursingCollegeDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Attendance">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubjectId" Type="int" />
+    <Property Name="StudentId" Type="bigint" />
+  </EntityType>
+  <EntityType Name="AttendanceSheet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AttendanceId" Type="bigint" />
+    <Property Name="AttDate" Type="date" />
+    <Property Name="AttStatus" Type="nvarchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="ClassInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClassName" Type="nvarchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="Comments">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Text" Type="nvarchar(max)" />
+    <Property Name="CommentDate" Type="datetime" />
+    <Property Name="UserId" Type="bigint" />
+  </EntityType>
+  <EntityType Name="Contact">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Subject" Type="nvarchar" MaxLength="15" />
+    <Property Name="Message" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DeptName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" />
+    <Property Name="Designation" Type="nvarchar" MaxLength="50" />
+    <Property Name="DOJ" Type="date" />
+    <Property Name="Qualification" Type="nvarchar" MaxLength="50" />
+    <Property Name="Specialization" Type="nvarchar" MaxLength="200" />
+    <Property Name="Experience" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Events">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EventDate" Type="date" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="ImagePath" Type="nvarchar" MaxLength="200" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="Notifications">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="500" />
+    <Property Name="Description" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Reply">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Text" Type="nvarchar(max)" />
+    <Property Name="ReplyDate" Type="datetime" />
+    <Property Name="CommentId" Type="bigint" />
+    <Property Name="UserId" Type="bigint" />
+  </EntityType>
+  <EntityType Name="Result">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubId" Type="int" />
+    <Property Name="StudentId" Type="bigint" />
+    <Property Name="Paper1" Type="float" />
+    <Property Name="Paper2" Type="float" />
+    <Property Name="Paper3" Type="float" />
+    <Property Name="ModelPaper" Type="float" />
+    <Property Name="PPT" Type="float" />
+    <Property Name="Assignment" Type="float" />
+    <Property Name="ClassPresentation" Type="float" />
+    <Property Name="Attendence" Type="float" />
+  </EntityType>
+  <EntityType Name="Slider">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Caption" Type="nvarchar" MaxLength="200" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="ImagePath" Type="nvarchar" MaxLength="500" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" />
+    <Property Name="RollNo" Type="nvarchar" MaxLength="100" />
+    <Property Name="Batch" Type="int" />
+  </EntityType>
+  <EntityType Name="StudyMaterial">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Topic" Type="nvarchar" MaxLength="200" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="SubjectId" Type="int" />
+    <Property Name="UserId" Type="bigint" />
+  </EntityType>
+  <EntityType Name="StudyMaterialFiles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FilePath" Type="nvarchar" MaxLength="300" />
+    <Property Name="StudyMaterialId" Type="int" />
+  </EntityType>
+  <EntityType Name="SubjectAllocation">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StartPeriod" Type="time" Precision="7" />
+    <Property Name="EndPeriod" Type="time" Precision="7" />
+    <Property Name="Batch" Type="int" />
+    <Property Name="SubjectId" Type="int" />
+    <Property Name="EmpId" Type="bigint" />
+  </EntityType>
+  <EntityType Name="Subjects">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubCode" Type="nvarchar" MaxLength="30" />
+    <Property Name="SubName" Type="nvarchar" MaxLength="100" />
+    <Property Name="ClassId" Type="int" />
+    <Property Name="DepartmentId" Type="int" />
+    <Property Name="IsDeleted" Type="bit" />
+  </EntityType>
+  <EntityType Name="UserAccount">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Parentage" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gender" Type="nvarchar" MaxLength="10" />
+    <Property Name="DOB" Type="date" />
+    <Property Name="Address" Type="nvarchar" MaxLength="200" />
+    <Property Name="ContactNo" Type="nvarchar" MaxLength="15" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="ImagePath" Type="nvarchar" MaxLength="200" />
+    <Property Name="DepartmentId" Type="int" />
+    <Property Name="Password" Type="nvarchar(max)" />
+    <Property Name="Salt" Type="nvarchar(max)" />
+    <Property Name="ResetCode" Type="nvarchar(max)" />
+    <Property Name="UserRole" Type="nvarchar" MaxLength="10" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="UserCode" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <Association Name="FK__Attendanc__Atten__32E0915F">
+    <End Role="Attendance" Type="Self.Attendance" Multiplicity="0..1" />
+    <End Role="AttendanceSheet" Type="Self.AttendanceSheet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Attendance">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AttendanceSheet">
+        <PropertyRef Name="AttendanceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Attendanc__Stude__30F848ED">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <End Role="Attendance" Type="Self.Attendance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Attendance">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Attendanc__Subje__31EC6D26">
+    <End Role="Subjects" Type="Self.Subjects" Multiplicity="0..1" />
+    <End Role="Attendance" Type="Self.Attendance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjects">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Attendance">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Comments__UserId__33D4B598">
+    <End Role="UserAccount" Type="Self.UserAccount" Multiplicity="0..1" />
+    <End Role="Comments" Type="Self.Comments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserAccount">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Comments">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Employee__Id__34C8D9D1">
+    <End Role="UserAccount" Type="Self.UserAccount" Multiplicity="1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="UserAccount">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reply__CommentId__35BCFE0A">
+    <End Role="Comments" Type="Self.Comments" Multiplicity="0..1" />
+    <End Role="Reply" Type="Self.Reply" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Comments">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Reply">
+        <PropertyRef Name="CommentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reply__UserId__36B12243">
+    <End Role="UserAccount" Type="Self.UserAccount" Multiplicity="0..1" />
+    <End Role="Reply" Type="Self.Reply" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserAccount">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Reply">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Result__StudentI__37A5467C">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <End Role="Result" Type="Self.Result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Result">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Result__SubId__38996AB5">
+    <End Role="Subjects" Type="Self.Subjects" Multiplicity="0..1" />
+    <End Role="Result" Type="Self.Result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjects">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Result">
+        <PropertyRef Name="SubId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__Id__398D8EEE">
+    <End Role="UserAccount" Type="Self.UserAccount" Multiplicity="1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="UserAccount">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__StudyMate__Study__3C69FB99">
+    <End Role="StudyMaterial" Type="Self.StudyMaterial" Multiplicity="0..1" />
+    <End Role="StudyMaterialFiles" Type="Self.StudyMaterialFiles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StudyMaterial">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudyMaterialFiles">
+        <PropertyRef Name="StudyMaterialId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__StudyMate__Subje__3A81B327">
+    <End Role="Subjects" Type="Self.Subjects" Multiplicity="0..1" />
+    <End Role="StudyMaterial" Type="Self.StudyMaterial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjects">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudyMaterial">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__StudyMate__UserI__3B75D760">
+    <End Role="UserAccount" Type="Self.UserAccount" Multiplicity="0..1" />
+    <End Role="StudyMaterial" Type="Self.StudyMaterial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserAccount">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudyMaterial">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SubjectAl__EmpId__3D5E1FD2">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="SubjectAllocation" Type="Self.SubjectAllocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SubjectAllocation">
+        <PropertyRef Name="EmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SubjectAl__Subje__3E52440B">
+    <End Role="Subjects" Type="Self.Subjects" Multiplicity="0..1" />
+    <End Role="SubjectAllocation" Type="Self.SubjectAllocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjects">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SubjectAllocation">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Subjects__ClassI__3F466844">
+    <End Role="ClassInfo" Type="Self.ClassInfo" Multiplicity="0..1" />
+    <End Role="Subjects" Type="Self.Subjects" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClassInfo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Subjects">
+        <PropertyRef Name="ClassId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Subjects__Depart__403A8C7D">
+    <End Role="Department" Type="Self.Department" Multiplicity="0..1" />
+    <End Role="Subjects" Type="Self.Subjects" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Subjects">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UserAccou__Depar__412EB0B6">
+    <End Role="Department" Type="Self.Department" Multiplicity="0..1" />
+    <End Role="UserAccount" Type="Self.UserAccount" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserAccount">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NursingCollegeDBModelStoreContainer">
+    <EntitySet Name="Attendance" EntityType="Self.Attendance" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AttendanceSheet" EntityType="Self.AttendanceSheet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ClassInfo" EntityType="Self.ClassInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Comments" EntityType="Self.Comments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contact" EntityType="Self.Contact" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Department" EntityType="Self.Department" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Events" EntityType="Self.Events" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Notifications" EntityType="Self.Notifications" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Reply" EntityType="Self.Reply" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Result" EntityType="Self.Result" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Slider" EntityType="Self.Slider" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StudyMaterial" EntityType="Self.StudyMaterial" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StudyMaterialFiles" EntityType="Self.StudyMaterialFiles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SubjectAllocation" EntityType="Self.SubjectAllocation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Subjects" EntityType="Self.Subjects" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserAccount" EntityType="Self.UserAccount" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Attendanc__Atten__32E0915F" Association="Self.FK__Attendanc__Atten__32E0915F">
+      <End Role="Attendance" EntitySet="Attendance" />
+      <End Role="AttendanceSheet" EntitySet="AttendanceSheet" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Attendanc__Stude__30F848ED" Association="Self.FK__Attendanc__Stude__30F848ED">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="Attendance" EntitySet="Attendance" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Attendanc__Subje__31EC6D26" Association="Self.FK__Attendanc__Subje__31EC6D26">
+      <End Role="Subjects" EntitySet="Subjects" />
+      <End Role="Attendance" EntitySet="Attendance" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Comments__UserId__33D4B598" Association="Self.FK__Comments__UserId__33D4B598">
+      <End Role="UserAccount" EntitySet="UserAccount" />
+      <End Role="Comments" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Employee__Id__34C8D9D1" Association="Self.FK__Employee__Id__34C8D9D1">
+      <End Role="UserAccount" EntitySet="UserAccount" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reply__CommentId__35BCFE0A" Association="Self.FK__Reply__CommentId__35BCFE0A">
+      <End Role="Comments" EntitySet="Comments" />
+      <End Role="Reply" EntitySet="Reply" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reply__UserId__36B12243" Association="Self.FK__Reply__UserId__36B12243">
+      <End Role="UserAccount" EntitySet="UserAccount" />
+      <End Role="Reply" EntitySet="Reply" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Result__StudentI__37A5467C" Association="Self.FK__Result__StudentI__37A5467C">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="Result" EntitySet="Result" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Result__SubId__38996AB5" Association="Self.FK__Result__SubId__38996AB5">
+      <End Role="Subjects" EntitySet="Subjects" />
+      <End Role="Result" EntitySet="Result" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__Id__398D8EEE" Association="Self.FK__Student__Id__398D8EEE">
+      <End Role="UserAccount" EntitySet="UserAccount" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK__StudyMate__Study__3C69FB99" Association="Self.FK__StudyMate__Study__3C69FB99">
+      <End Role="StudyMaterial" EntitySet="StudyMaterial" />
+      <End Role="StudyMaterialFiles" EntitySet="StudyMaterialFiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__StudyMate__Subje__3A81B327" Association="Self.FK__StudyMate__Subje__3A81B327">
+      <End Role="Subjects" EntitySet="Subjects" />
+      <End Role="StudyMaterial" EntitySet="StudyMaterial" />
+    </AssociationSet>
+    <AssociationSet Name="FK__StudyMate__UserI__3B75D760" Association="Self.FK__StudyMate__UserI__3B75D760">
+      <End Role="UserAccount" EntitySet="UserAccount" />
+      <End Role="StudyMaterial" EntitySet="StudyMaterial" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SubjectAl__EmpId__3D5E1FD2" Association="Self.FK__SubjectAl__EmpId__3D5E1FD2">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="SubjectAllocation" EntitySet="SubjectAllocation" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SubjectAl__Subje__3E52440B" Association="Self.FK__SubjectAl__Subje__3E52440B">
+      <End Role="Subjects" EntitySet="Subjects" />
+      <End Role="SubjectAllocation" EntitySet="SubjectAllocation" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Subjects__ClassI__3F466844" Association="Self.FK__Subjects__ClassI__3F466844">
+      <End Role="ClassInfo" EntitySet="ClassInfo" />
+      <End Role="Subjects" EntitySet="Subjects" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Subjects__Depart__403A8C7D" Association="Self.FK__Subjects__Depart__403A8C7D">
+      <End Role="Department" EntitySet="Department" />
+      <End Role="Subjects" EntitySet="Subjects" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UserAccou__Depar__412EB0B6" Association="Self.FK__UserAccou__Depar__412EB0B6">
+      <End Role="Department" EntitySet="Department" />
+      <End Role="UserAccount" EntitySet="UserAccount" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

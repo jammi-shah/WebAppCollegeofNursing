@@ -1,0 +1,56 @@
+﻿@model IEnumerable<ModelLayer.Slider>
+
+@{
+    ViewBag.Title = "GetSlider";
+}
+
+<br />
+<p>
+    @Html.ActionLink("Add Slider", "AddSlider",null,new {@class="btn btn-primary btn-block" })
+</p>
+<br />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Caption)
+        </th>
+        <th> Description</th>
+        <th>
+            @Html.DisplayName("Image")
+        </th>
+
+        <th> Action</th>
+
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Caption)
+        </td>
+        <td style="overflow:auto">
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            <img src="@Url.Content(item.ImagePath)" style="height:200px;" class="img-fluid img-fluid" alt="Alternate Text" />
+        </td>
+
+        <td>
+            @Html.ActionLink("Delete", "DeleteSlider", new { id = item.Id }, new { @class = "btn btn-danger", onclick="return confirm('Are you sure you want to delete')" })
+
+            @if (item.IsActive == true)
+            {
+                @Html.ActionLink("Block", "BlockSlider", new { id = item.Id }, new { @class = "btn btn-danger" })
+            }
+            else
+            {
+                @Html.ActionLink("UnBlock", "BlockSlider", new { id = item.Id }, new { @class = "btn btn-success" })
+            }
+        </td>
+
+
+
+    </tr>
+}
+
+</table>

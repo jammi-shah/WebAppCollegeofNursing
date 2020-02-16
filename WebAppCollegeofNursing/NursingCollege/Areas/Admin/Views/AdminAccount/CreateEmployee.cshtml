@@ -1,0 +1,113 @@
+﻿@model ModelLayer.UserAccount
+
+@{
+    ViewBag.Title = "CreateEmployee";
+}
+<h2>
+    Create Employee
+</h2>
+<div class="col-md-12">
+  
+    <form method="post">
+        <div style="display:flex; justify-content:space-around; flex-wrap:wrap;">
+        <div class="card text-center col-md-6">
+
+            <div class="card-body">
+
+                <div class="form-group">
+                    @Html.Label("Employee Code", htmlAttributes: new { @class = "control-label" })
+
+                    @Html.EditorFor(model => model.UserCode, new { htmlAttributes = new { @class = "form-control" } })
+                    <span id="empError"></span>
+                    @Html.ValidationMessageFor(model => model.UserCode, "", new { @class = "text-danger" })
+
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label" })
+
+                    @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Employee.Designation, htmlAttributes: new { @class = "control-label " })
+
+                    @Html.EditorFor(model => model.Employee.Designation, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Employee.Designation, "", new { @class = "text-danger" })
+
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Employee.DOJ, htmlAttributes: new { @class = "control-label" })
+
+                    <input type="text" name="Employee.DOJ" id="Employee_DOJ" value="" class="form-control" />
+                    @Html.ValidationMessageFor(model => model.Employee.DOJ, "", new { @class = "text-danger" })
+
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "control-label" })
+
+                    @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+
+                </div>
+            </div>
+        </div>
+        <div class="card text-center col-md-6">
+            <div class="card-body">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ContactNo, htmlAttributes: new { @class = "control-label" })
+
+                    @Html.EditorFor(model => model.ContactNo, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.ContactNo, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label" })
+
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                </div>
+
+
+                <div class="form-group">
+                    @Html.Label("Department", htmlAttributes: new { @class = "control-label" })
+
+                    @Html.DropDownList("DepartmentId", null, "Select Department", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.DepartmentId, "", new { @class = "text-danger" })
+                </div>
+
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.UserRole, htmlAttributes: new { @class = "control-label" })
+
+                    @Html.DropDownList("UserRole", new List<SelectListItem>
+                        {
+                         new SelectListItem { Text="Admin", Value="Admin"},
+                         new SelectListItem { Text="HOD", Value="HOD"},
+                         new SelectListItem { Text="Faculty", Value="Faculty"}
+                        }, "Select Account-Type", new { @class = "form-control" })
+
+                    @Html.ValidationMessageFor(model => model.UserRole, "", new { @class = "text-danger" })
+                </div>
+
+
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary btn-block" />
+                </div>
+            </div>
+
+        </div>
+            </div>
+
+    </form>
+    </div>
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+    <link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+    <script>
+        $('#Employee_DOJ').datepicker({ dateFormat: "dd-mm-yy", changeMonth: true, maxDate: 0 });
+
+    </script>

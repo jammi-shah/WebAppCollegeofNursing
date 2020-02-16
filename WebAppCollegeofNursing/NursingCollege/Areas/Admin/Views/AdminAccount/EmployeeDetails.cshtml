@@ -1,0 +1,141 @@
+﻿@model ModelLayer.UserAccount
+
+@{
+    ViewBag.Title = "EmployeeDetails";
+}
+
+
+<div>
+    <hr />
+    <div class="text-center">
+        <img src="@Url.Content(Model.ImagePath)" width="200" height="200"/>
+    </div>
+    
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.UserCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Parentage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Parentage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DOB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DOB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImagePath)
+        </dt>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Department.DeptName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Department.DeptName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee.Designation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Employee.Designation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee.DOJ)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Employee.DOJ)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee.Qualification)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Employee.Qualification)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee.Specialization)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Employee.Specialization)
+        </dd>
+       
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee.Experience)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Employee.Experience)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserRole)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserRole)
+        </dd>
+
+    </dl>
+    <input type="button" value="Cancel" class="btn btn-danger" onclick="cancelEdit('/Admin/AdminAccount/CreateEmployee')" />
+</div>

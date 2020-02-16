@@ -1,0 +1,134 @@
+﻿
+@{
+    ViewBag.Title = "AddResult";
+}
+
+<style>
+    .spinner {
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%, -50%);
+    }
+</style>
+
+<div>
+   <label class="alert-dark">Batch</label>
+    @Html.DropDownList("Batch", null, "Select Batch", new { @class = "form-control" })
+  <label class="alert-dark">Select Subject</label>
+    @Html.DropDownList("SubjectId", null, "Select Subject", new { @class = "form-control" })
+    <label class="alert-dark">Roll No</label>
+    <input type="text" name="rollNo" id="rollNo" value="" class="form-control" />
+   
+    <input type="button" id="btnSearch" class="btn-block btn-primary" value="Get Result" />
+    &nbsp;
+</div>
+
+<div id="divError" class="collapse alert alert-danger">
+
+
+</div>
+<div class="spinner collapse" id="loader">
+    <img src="~/Images/ezgif-1-a2b87b265e.gif" />
+</div>
+
+<div class="container">
+    <table class="table table-responsive">
+        <tr>
+            <th>
+                RollNo
+            </th>
+            <th>
+                Name
+            </th>
+
+            <th>
+                Paper 1
+            </th>
+            <th>
+                Paper 2
+            </th>
+            <th>
+                Paper 3
+            </th>
+            <th>
+                ModelPaper
+            </th>
+            <th>
+                Assignment
+            </th>
+            <th>
+                PPT
+            </th>
+            <th>
+                Class Presentation
+            </th>
+            <th>
+                Attendance
+            </th>
+           
+
+        </tr>
+        <tbody id="tableBody"></tbody>
+    </table>
+</div>
+
+<script>
+    $(document).ready(function () {
+
+      
+    
+
+        $("#btnSearch").click(function () {
+            var batch = $("#Batch").val();
+            var subjectId = $("#SubjectId").val();
+           
+            if (batch != "" || subjectId != "")
+            {
+                $("#divError").hide();
+                $("#loader").show();
+                $.ajax({
+                    url: "/AttendanceAndResult/GetResult",
+                    data: { rollno: $("#rollNo").val(), batch: $("#Batch").val(), subjectId: $("#SubjectId").val() },
+                    method: "get",
+                    dataType: "json",
+                    success: function (students) {
+
+                        var tableBody = $("#tableBody");
+                        tableBody.empty();
+                        $.each(students, function (index, student) {
+                            tableBody.append(`<tr>
+
+                                                    <td>${student.RollNo}</td>
+                                                    <td>${student.Name}</td>
+                                                    <td>${student.Paper1}</td>
+                                                    <td>${student.Paper2}</td>
+                                                    <td>${student.Paper3}</td>
+                                                    <td>${student.ModelPaper}</td>
+                                                    <td>${student.Assignment}</td>
+                                                    <td>${student.PPT}</td>
+                                                    <td>${student.ClassPresentation}</td>
+                                                    <td>${student.Attendence}</td>
+</tr>`)
+                            $("#loader").hide();
+                        });
+
+                    },
+                    error: function (xhr) {
+                        
+                    }
+
+
+
+                });
+            }
+            else {
+                $("#divError").text("Select Batch and Subject").show();
+            }
+           
+            
+        });
+
+
+    })
+</script>

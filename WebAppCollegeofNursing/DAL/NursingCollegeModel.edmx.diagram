@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8e03b3988756428e857355cdcc75ec94" Name="Diagram1" ZoomLevel="62">
+        <EntityTypeShape EntityType="NursingCollegeDBModel.Attendance" Width="1.5" PointX="10.5" PointY="18.875" />
+        <EntityTypeShape EntityType="NursingCollegeDBModel.AttendanceSheet" Width="1.5" PointX="12.75" PointY="19" />
+        <EntityTypeShape EntityType="NursingCollegeDBModel.ClassInfo" Width="1.5" PointX="0.75" PointY="9.375" />
+        <EntityTypeShape EntityType="NursingCollegeDBModel.Comment" Width="1.5" PointX="5.25" PointY="16.375" />
+        <EntityTypeShape EntityType="NursingCollegeDBModel.Contact" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="NursingCollegeDBModel.Department" Width="1.5" PointX="0.75" PointY="12.25" />
+        <EntityTypeShape EntityType="NursingCollegeDBModel.Employee" Width="1.5" PointX="5.25" PointY="13" />
+        <EntityTypeShape EntityType="NursingCollegeDBModel.Event" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="NursingCollegeDBModel.Notification" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="NursingCollegeDBModel.Reply" Width="1.5" PointX="7.5" PointY="16" />
+        <EntityTypeShape EntityType="NursingCollegeDBModel.Result" Width="1.5" PointX="10.5" PointY="14.25" />
+        <EntityTypeShape EntityType="NursingCollegeDBModel.Slider" Width="1.5" PointX="2.75" PointY="3.75" />
+        <EntityTypeShape EntityType="NursingCollegeDBModel.Student" Width="1.5" PointX="5.25" PointY="19.25" />
+        <EntityTypeShape EntityType="NursingCollegeDBModel.StudyMaterial" Width="1.5" PointX="5.25" PointY="8.875" />
+        <EntityTypeShape EntityType="NursingCollegeDBModel.StudyMaterialFile" Width="1.5" PointX="7.5" PointY="8.25" />
+        <EntityTypeShape EntityType="NursingCollegeDBModel.SubjectAllocation" Width="1.5" PointX="7.5" PointY="11.75" />
+        <EntityTypeShape EntityType="NursingCollegeDBModel.Subject" Width="1.5" PointX="3" PointY="10.5" />
+        <EntityTypeShape EntityType="NursingCollegeDBModel.UserAccount" Width="1.5" PointX="3" PointY="14.625" />
+        <AssociationConnector Association="NursingCollegeDBModel.FK__Attendanc__Atten__32E0915F" />
+        <AssociationConnector Association="NursingCollegeDBModel.FK__Attendanc__Stude__30F848ED" />
+        <AssociationConnector Association="NursingCollegeDBModel.FK__Attendanc__Subje__31EC6D26" />
+        <AssociationConnector Association="NursingCollegeDBModel.FK__Subjects__ClassI__3F466844" />
+        <AssociationConnector Association="NursingCollegeDBModel.FK__Comments__UserId__33D4B598" />
+        <AssociationConnector Association="NursingCollegeDBModel.FK__Reply__CommentId__35BCFE0A" />
+        <AssociationConnector Association="NursingCollegeDBModel.FK__Subjects__Depart__403A8C7D" />
+        <AssociationConnector Association="NursingCollegeDBModel.FK__UserAccou__Depar__412EB0B6" />
+        <AssociationConnector Association="NursingCollegeDBModel.FK__Employee__Id__34C8D9D1" />
+        <AssociationConnector Association="NursingCollegeDBModel.FK__SubjectAl__EmpId__3D5E1FD2" />
+        <AssociationConnector Association="NursingCollegeDBModel.FK__Reply__UserId__36B12243" />
+        <AssociationConnector Association="NursingCollegeDBModel.FK__Result__StudentI__37A5467C" />
+        <AssociationConnector Association="NursingCollegeDBModel.FK__Result__SubId__38996AB5" />
+        <AssociationConnector Association="NursingCollegeDBModel.FK__Student__Id__398D8EEE" />
+        <AssociationConnector Association="NursingCollegeDBModel.FK__StudyMate__Study__3C69FB99" />
+        <AssociationConnector Association="NursingCollegeDBModel.FK__StudyMate__Subje__3A81B327" />
+        <AssociationConnector Association="NursingCollegeDBModel.FK__StudyMate__UserI__3B75D760" />
+        <AssociationConnector Association="NursingCollegeDBModel.FK__SubjectAl__Subje__3E52440B" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

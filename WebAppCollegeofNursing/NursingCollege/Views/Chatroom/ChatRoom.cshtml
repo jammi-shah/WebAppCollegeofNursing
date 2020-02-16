@@ -1,0 +1,137 @@
+﻿@{
+    ViewBag.Title = "ChatRoom";
+
+    if (User.IsInRole("HOD"))
+    {
+        Layout = "~/Areas/HOD/Views/Shared/_Layout.cshtml";
+    }
+    else if (User.IsInRole("Student"))
+    {
+        Layout = "~/Areas/Student/Views/Shared/_Layout.cshtml";
+    }
+    else if (User.IsInRole("Faculty"))
+    {
+        Layout = "~/Areas/Faculty/Views/Shared/_Layout.cshtml";
+    }
+    else if (User.IsInRole("Admin"))
+    {
+        Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    }
+}
+
+
+<script src="~/Scripts/jquery.signalR-2.4.1.min.js"></script>
+<script src="~/signalr/hubs"></script>
+
+
+
+<div class="container">
+    <h2 class="text-center">ChatRoom</h2>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-3" style="margin-bottom:40px;">
+            <textarea class="form-control" id="CommentText" cols="24" rows="8" placeholder="Comment here..."></textarea>
+            <input type="button" class="btn btn-danger" id="btnComment" name="Comment" value="Comment" />
+        </div>
+    </div>
+
+    <div id="mediaList">
+
+    </div>
+
+</div>
+<div id="dynamicDiv" style="display:none"></div>
+
+<script type="text/javascript">
+
+    $('#btnComment').click(function () {
+
+        $.ajax({
+            url: '/ChatRoom/AddComment',
+            method: 'post',
+            data: { comment: $('#CommentText').val()},
+            success: function () {
+                getComments();
+            },
+            error: function (error) { }
+        });
+    });
+
+    function ReplyComment(commentId) {
+
+        $.ajax({
+            url: '/ChatRoom/ReplyComment',
+            method: 'post',
+            dataType: "json",
+            data: { comment: $('#txtReply' + commentId).val() , commentId: commentId },
+            success: function () {
+                getComments();
+            },
+            error: function (error) { }
+        });
+    };
+        function getComments() {
+
+            $.ajax({
+                url: '/ChatRoom/GetComments',
+                method: 'get',
+                dataType: 'json',
+                success: function (response) {
+                    $(response).each(function (i, e) {
+
+                        $('#mediaList').append(
+                            '<ul class="media-list"><li class="media" ><div class="media-left row"><a href="#">' +
+                            '<img class="media-object img-circle" style= "height:30px; width:30px;" src= "http://placehold.it/64x64" > &nbsp;@*@User.Identity.Name*@ abid' +
+                            '</a></div><br /><div class="media-body row" id="Comments">' + e.Text +
+                            '</div><div>' +//<button id="lnk' + e.Id + '"name="Reply" style="font-size:12px; color:red">Reply</button> &nbsp;
+                            '<button name="ViewReplies" onclick="getReplies(' + e.Id + ')" style="font-size:12px; color:red">ViewReplies</button>' +
+                            '</div ><div id="viewRepliesDiv" style="font-size:14px;"><div id="div' + e.Id + '"></div></ul>'
+
+                        )
+                    });
+                },
+
+                error: function (err) {
+                    alert(err);
+                }
+            });
+        }
+        getComments();
+
+
+    function getReplies(commentId) {
+        $.ajax({
+            url: '/ChatRoom/GetReplies',
+            method: 'get',
+            dataType: 'json',
+            data: { commentId: commentId },
+            success: function (response) {
+                $(response).each(function (i, e) {
+                    $('#dynamicDiv').append(
+                        '<ul style="padding-left:20px;" class="media-list"><li class="media"><div class="media-left row">' +
+                        '<a href="#"><img class="media-object img-circle" style="height:30px; width:30px;" src="http://placehold.it/64x64"> &nbsp;' +
+                        '<span style="display:inline;" class="media-heading">' + e.UserName +'</span></a></div><br /><div class="media-body row">'+
+                        e.Text + '</div></li></ul></div > '
+                        //'<span style="display:inline;" class="media-heading">' + e.CommentDate + '</span>
+                    )
+                });
+
+
+                $('#div' + commentId).html("");
+                $('#div' + commentId).append(
+                    '<div style="float:right"><textarea class="form-control" id="txtReply' + commentId + '" cols="24" rows="3" placeholder="Comment here..."></textarea>' +
+                    '<input type="button" id="btnReply" onclick="ReplyComment(' + commentId + ')" value="Send" /></div >'
+                )
+                $('#div' + commentId).append($('#dynamicDiv').html());
+
+                $('#dynamicDiv').html("");
+            },
+
+            error: function (err) {
+                alert('error');
+            }
+        });
+    }
+</script>
+

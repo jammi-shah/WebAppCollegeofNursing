@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "ViewAllStudents";
+    Layout = null;
+}
+
+<div class="container" style="margin:30px 0;">
+@using (Html.BeginForm("GetStudents", "Students", FormMethod.Post, new { onSubmit = "return searchByDeptAndClass(this)" }))
+{
+    <div>
+        <div class="col-md-12">
+            <div class="col-md-3 col-md-push-1">
+                @Html.DropDownList("DepartmentId", null, "Select Department", new { @class = "form-control" })
+            </div>
+
+            <div class="col-md-3 col-md-push-1">
+                @Html.DropDownList("CurrentClass", null, "Select Class", new { @class = "form-control" })
+            </div>
+            <div class="col-md-3 col-md-push-1">
+                <input type="submit" name="button" value="View" id="viewStudents" class="btn btn-block btn-primary" />
+            </div>
+        </div>
+        
+    </div>
+}
+</div>
+
+
+<div class="alert alert-danger text-center collapse" style="padding:80px 0;">
+    
+</div>
+
+<div id="studentList">
+
+</div>
+

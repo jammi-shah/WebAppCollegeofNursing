@@ -1,0 +1,69 @@
+D:\College Projects\LiveCollegeProjects\NursingCollege\DAL\bin\Debug\DAL.dll.config
+D:\College Projects\LiveCollegeProjects\NursingCollege\DAL\bin\Debug\DAL.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\DAL\bin\Debug\DAL.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\DAL\bin\Debug\EntityFramework.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\DAL\bin\Debug\EntityFramework.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\College Projects\LiveCollegeProjects\NursingCollege\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\College Projects\LiveCollegeProjects\NursingCollege\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\College Projects\LiveCollegeProjects\NursingCollege\DAL\obj\Debug\DAL.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\DAL\obj\Debug\DAL.pdb
+C:\Users\Shahid\Desktop\NursingCollege\DAL\bin\Debug\DAL.dll.config
+C:\Users\Shahid\Desktop\NursingCollege\DAL\bin\Debug\DAL.dll
+C:\Users\Shahid\Desktop\NursingCollege\DAL\bin\Debug\DAL.pdb
+C:\Users\Shahid\Desktop\NursingCollege\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Shahid\Desktop\NursingCollege\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Shahid\Desktop\NursingCollege\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Shahid\Desktop\NursingCollege\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Shahid\Desktop\NursingCollege\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Shahid\Desktop\NursingCollege\DAL\obj\Debug\DAL.dll
+C:\Users\Shahid\Desktop\NursingCollege\DAL\obj\Debug\DAL.pdb
+D:\College Projects\LiveCollegeProjects\DAL\bin\Debug\DAL.dll.config
+D:\College Projects\LiveCollegeProjects\DAL\bin\Debug\DAL.dll
+D:\College Projects\LiveCollegeProjects\DAL\bin\Debug\DAL.pdb
+D:\College Projects\LiveCollegeProjects\DAL\bin\Debug\EntityFramework.dll
+D:\College Projects\LiveCollegeProjects\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\College Projects\LiveCollegeProjects\DAL\bin\Debug\EntityFramework.xml
+D:\College Projects\LiveCollegeProjects\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\College Projects\LiveCollegeProjects\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\College Projects\LiveCollegeProjects\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\College Projects\LiveCollegeProjects\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\College Projects\LiveCollegeProjects\DAL\obj\Debug\DAL.dll
+D:\College Projects\LiveCollegeProjects\DAL\obj\Debug\DAL.pdb
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\DAL\bin\Debug\DAL.dll.config
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\DAL\bin\Debug\DAL.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\DAL\bin\Debug\DAL.pdb
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\DAL\bin\Debug\EntityFramework.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\DAL\bin\Debug\EntityFramework.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\DAL\obj\Debug\DAL.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\DAL\obj\Debug\DAL.pdb
+D:\College Projects\MSCIT\LiveCollegeProjects\DAL\bin\Debug\DAL.dll.config
+D:\College Projects\MSCIT\LiveCollegeProjects\DAL\bin\Debug\DAL.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\DAL\bin\Debug\DAL.pdb
+D:\College Projects\MSCIT\LiveCollegeProjects\DAL\bin\Debug\EntityFramework.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\DAL\bin\Debug\EntityFramework.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\College Projects\MSCIT\LiveCollegeProjects\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\College Projects\MSCIT\LiveCollegeProjects\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\College Projects\MSCIT\LiveCollegeProjects\DAL\obj\Debug\DAL.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\DAL\obj\Debug\DAL.pdb
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\DAL\obj\Debug\DAL.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\DAL\obj\Debug\DAL.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\DAL\bin\Debug\DAL.dll.config
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\DAL\bin\Debug\DAL.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\DAL\bin\Debug\DAL.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\DAL\bin\Debug\EntityFramework.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\DAL\bin\Debug\EntityFramework.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\DAL\obj\Debug\DAL.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\DAL\obj\Debug\DAL.pdb

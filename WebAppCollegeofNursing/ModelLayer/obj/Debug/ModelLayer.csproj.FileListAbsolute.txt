@@ -1,0 +1,69 @@
+D:\College Projects\LiveCollegeProjects\NursingCollege\ModelLayer\bin\Debug\ModelLayer.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\ModelLayer\bin\Debug\ModelLayer.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\ModelLayer\bin\Debug\EntityFramework.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\ModelLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\ModelLayer\bin\Debug\EntityFramework.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\ModelLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\ModelLayer\obj\Debug\ModelLayer.csprojAssemblyReference.cache
+D:\College Projects\LiveCollegeProjects\NursingCollege\ModelLayer\obj\Debug\ModelLayer.csproj.CoreCompileInputs.cache
+D:\College Projects\LiveCollegeProjects\NursingCollege\ModelLayer\obj\Debug\ModelLayer.csproj.CopyComplete
+D:\College Projects\LiveCollegeProjects\NursingCollege\ModelLayer\obj\Debug\ModelLayer.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\ModelLayer\obj\Debug\ModelLayer.pdb
+C:\Users\Shahid\Desktop\NursingCollege\ModelLayer\bin\Debug\ModelLayer.dll
+C:\Users\Shahid\Desktop\NursingCollege\ModelLayer\bin\Debug\ModelLayer.pdb
+C:\Users\Shahid\Desktop\NursingCollege\ModelLayer\bin\Debug\EntityFramework.dll
+C:\Users\Shahid\Desktop\NursingCollege\ModelLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Shahid\Desktop\NursingCollege\ModelLayer\bin\Debug\EntityFramework.xml
+C:\Users\Shahid\Desktop\NursingCollege\ModelLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Shahid\Desktop\NursingCollege\ModelLayer\obj\Debug\ModelLayer.csprojResolveAssemblyReference.cache
+C:\Users\Shahid\Desktop\NursingCollege\ModelLayer\obj\Debug\ModelLayer.dll
+C:\Users\Shahid\Desktop\NursingCollege\ModelLayer\obj\Debug\ModelLayer.pdb
+D:\College Projects\LiveCollegeProjects\ModelLayer\bin\Debug\ModelLayer.dll
+D:\College Projects\LiveCollegeProjects\ModelLayer\bin\Debug\ModelLayer.pdb
+D:\College Projects\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.dll
+D:\College Projects\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\College Projects\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.xml
+D:\College Projects\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\College Projects\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.csprojAssemblyReference.cache
+D:\College Projects\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.csproj.CoreCompileInputs.cache
+D:\College Projects\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.csproj.CopyComplete
+D:\College Projects\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.dll
+D:\College Projects\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.pdb
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\ModelLayer\bin\Debug\ModelLayer.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\ModelLayer\bin\Debug\ModelLayer.pdb
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.csprojResolveAssemblyReference.cache
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.pdb
+D:\College Projects\MSCIT\LiveCollegeProjects\ModelLayer\bin\Debug\ModelLayer.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\ModelLayer\bin\Debug\ModelLayer.pdb
+D:\College Projects\MSCIT\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.csprojAssemblyReference.cache
+D:\College Projects\MSCIT\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.csproj.CoreCompileInputs.cache
+D:\College Projects\MSCIT\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.csproj.CopyComplete
+D:\College Projects\MSCIT\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.pdb
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\ModelLayer\bin\Debug\ModelLayer.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\ModelLayer\bin\Debug\ModelLayer.pdb
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.csprojResolveAssemblyReference.cache
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\ModelLayer\bin\Debug\ModelLayer.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\ModelLayer\bin\Debug\ModelLayer.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\ModelLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.csprojResolveAssemblyReference.cache
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\ModelLayer\obj\Debug\ModelLayer.pdb

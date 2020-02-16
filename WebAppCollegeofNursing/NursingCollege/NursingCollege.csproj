@@ -1,0 +1,686 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8DAE46A3-C56C-49F2-94F0-AE86E6B737B1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NursingCollege</RootNamespace>
+    <AssemblyName>NursingCollege</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TypeScriptToolsVersion>2.1</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Core, Version=2.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Core.2.4.1\lib\net45\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.SystemWeb, Version=2.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.SystemWeb.2.4.1\lib\net45\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.2.1.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.2.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Diagnostics.DiagnosticSource">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.4.1\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.TelemetryCorrelation">
+      <HintPath>..\packages\Microsoft.AspNet.TelemetryCorrelation.1.0.0\lib\net45\Microsoft.AspNet.TelemetryCorrelation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\AdminAccountController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ClassInfoController.cs" />
+    <Compile Include="Areas\Admin\Controllers\NotificationAndSliderController.cs" />
+    <Compile Include="Areas\Faculty\Controllers\FacultyHomeController.cs" />
+    <Compile Include="Areas\Faculty\FacultyAreaRegistration.cs" />
+    <Compile Include="Areas\HOD\Controllers\HODHomeController.cs" />
+    <Compile Include="Areas\HOD\Controllers\SubjectController.cs" />
+    <Compile Include="Areas\HOD\HODAreaRegistration.cs" />
+    <Compile Include="Areas\Student\Controllers\ResultController.cs" />
+    <Compile Include="Areas\Student\Controllers\StudentAttendenceController.cs" />
+    <Compile Include="Areas\Student\Controllers\StudentHomeController.cs" />
+    <Compile Include="Areas\Student\StudentAreaRegistration.cs" />
+    <Compile Include="Scripts\ChatHub.cs" />
+    <Compile Include="Common\MyRoleProvider.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AttendanceAndResultController.cs" />
+    <Compile Include="Controllers\ChatroomController.cs" />
+    <Compile Include="Controllers\EmployeeProfileController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\StudyMaterialsController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\CustomStyleSheet.css" />
+    <Content Include="Assets\LayoutStyleSheet.css" />
+    <Content Include="Assets\Scripts\CustomScript.js" />
+    <Content Include="Content\Adminstyles.css" />
+    <Content Include="Content\animate.css" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\classy-nav.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\magnific-popup.css" />
+    <Content Include="Content\nice-select.css" />
+    <Content Include="Content\owl.carousel.min.css" />
+    <Content Include="Content\simple-line-icons.css" />
+    <Content Include="Content\style.css" />
+    <Content Include="Content\themes\base\accordion.css" />
+    <Content Include="Content\themes\base\all.css" />
+    <Content Include="Content\themes\base\autocomplete.css" />
+    <Content Include="Content\themes\base\base.css" />
+    <Content Include="Content\themes\base\button.css" />
+    <Content Include="Content\themes\base\core.css" />
+    <Content Include="Content\themes\base\datepicker.css" />
+    <Content Include="Content\themes\base\dialog.css" />
+    <Content Include="Content\themes\base\draggable.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_444444_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_555555_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_777620_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_777777_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\menu.css" />
+    <Content Include="Content\themes\base\progressbar.css" />
+    <Content Include="Content\themes\base\resizable.css" />
+    <Content Include="Content\themes\base\selectable.css" />
+    <Content Include="Content\themes\base\selectmenu.css" />
+    <Content Include="Content\themes\base\slider.css" />
+    <Content Include="Content\themes\base\sortable.css" />
+    <Content Include="Content\themes\base\spinner.css" />
+    <Content Include="Content\themes\base\tabs.css" />
+    <Content Include="Content\themes\base\theme.css" />
+    <Content Include="Content\themes\base\tooltip.css" />
+    <Content Include="eclipse\css\availability-calendar.css" />
+    <Content Include="eclipse\css\bootstrap.css" />
+    <Content Include="eclipse\css\font-awesome.min.css" />
+    <Content Include="eclipse\css\hexagons.min.css" />
+    <Content Include="eclipse\css\ion.rangeSlider.css" />
+    <Content Include="eclipse\css\ion.rangeSlider.skinFlat.css" />
+    <Content Include="eclipse\css\jquerysctipttop.css" />
+    <Content Include="eclipse\css\linearicons.css" />
+    <Content Include="eclipse\css\magnific-popup.css" />
+    <Content Include="eclipse\css\main.css" />
+    <Content Include="eclipse\css\nice-select.css" />
+    <Content Include="eclipse\css\owl.carousel.css" />
+    <Content Include="eclipse\eclipse education-doc\css\font-awesome.min.css" />
+    <Content Include="eclipse\eclipse education-doc\css\main.css" />
+    <Content Include="eclipse\eclipse education-doc\css\normalize.min.css" />
+    <Content Include="eclipse\eclipse education-doc\fonts\fontawesome-webfont.svg" />
+    <Content Include="eclipse\eclipse education-doc\index.html" />
+    <Content Include="eclipse\eclipse education-doc\js\custom.js" />
+    <Content Include="eclipse\eclipse education-doc\js\jquery-1.11.0.min.js" />
+    <Content Include="eclipse\eclipse education-doc\js\jquery.nav.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shAutoloader.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushAppleScript.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushAS3.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushBash.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushColdFusion.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushCpp.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushCSharp.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushCss.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushDelphi.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushDiff.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushErlang.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushGroovy.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushJava.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushJavaFX.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushJScript.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushPerl.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushPhp.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushPlain.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushPowerShell.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushPython.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushRuby.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushSass.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushScala.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushSql.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushVb.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shBrushXml.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\scripts\shLegacy.js" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\styles\shCore.css" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\styles\shCoreDefault.css" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\styles\shCoreDjango.css" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\styles\shCoreEclipse.css" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\styles\shCoreEmacs.css" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\styles\shCoreFadeToGrey.css" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\styles\shCoreMDUltra.css" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\styles\shCoreMidnight.css" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\styles\shCoreRDark.css" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\styles\shThemeDefault.css" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\styles\shThemeDjango.css" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\styles\shThemeEclipse.css" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\styles\shThemeEmacs.css" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\styles\shThemeFadeToGrey.css" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\styles\shThemeMDUltra.css" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\styles\shThemeMidnight.css" />
+    <Content Include="eclipse\eclipse education-doc\syntax-highlighter\styles\shThemeRDark.css" />
+    <Content Include="eclipse\fonts\fontawesome-webfont.svg" />
+    <Content Include="eclipse\fonts\Linearicons-Free.svg" />
+    <Content Include="eclipse\img\about-img.png" />
+    <Content Include="eclipse\img\banner-bg.png" />
+    <Content Include="eclipse\img\blog-post\b1.jpg" />
+    <Content Include="eclipse\img\blog-post\b2.jpg" />
+    <Content Include="eclipse\img\blog-post\b3.jpg" />
+    <Content Include="eclipse\img\blog\ads-banner.jpg" />
+    <Content Include="eclipse\img\blog\blog-home-banner.jpg" />
+    <Content Include="eclipse\img\blog\c1.jpg" />
+    <Content Include="eclipse\img\blog\c2.jpg" />
+    <Content Include="eclipse\img\blog\c3.jpg" />
+    <Content Include="eclipse\img\blog\c4.jpg" />
+    <Content Include="eclipse\img\blog\c5.jpg" />
+    <Content Include="eclipse\img\blog\c6.jpg" />
+    <Content Include="eclipse\img\blog\cat-widget1.jpg" />
+    <Content Include="eclipse\img\blog\cat-widget2.jpg" />
+    <Content Include="eclipse\img\blog\cat-widget3.jpg" />
+    <Content Include="eclipse\img\blog\feature-img1.jpg" />
+    <Content Include="eclipse\img\blog\feature-img2.jpg" />
+    <Content Include="eclipse\img\blog\feature-img3.jpg" />
+    <Content Include="eclipse\img\blog\feature-img4.jpg" />
+    <Content Include="eclipse\img\blog\feature-img5.jpg" />
+    <Content Include="eclipse\img\blog\next.jpg" />
+    <Content Include="eclipse\img\blog\post-img1.jpg" />
+    <Content Include="eclipse\img\blog\post-img2.jpg" />
+    <Content Include="eclipse\img\blog\pp1.jpg" />
+    <Content Include="eclipse\img\blog\pp2.jpg" />
+    <Content Include="eclipse\img\blog\pp3.jpg" />
+    <Content Include="eclipse\img\blog\pp4.jpg" />
+    <Content Include="eclipse\img\blog\prev.jpg" />
+    <Content Include="eclipse\img\blog\s-img.jpg" />
+    <Content Include="eclipse\img\blog\user-info.png" />
+    <Content Include="eclipse\img\courses\course-details.jpg" />
+    <Content Include="eclipse\img\courses\trainer1.jpg" />
+    <Content Include="eclipse\img\elements\d.jpg" />
+    <Content Include="eclipse\img\elements\disabled-check.png" />
+    <Content Include="eclipse\img\elements\disabled-radio.png" />
+    <Content Include="eclipse\img\elements\f1.jpg" />
+    <Content Include="eclipse\img\elements\f2.jpg" />
+    <Content Include="eclipse\img\elements\f3.jpg" />
+    <Content Include="eclipse\img\elements\f4.jpg" />
+    <Content Include="eclipse\img\elements\f5.jpg" />
+    <Content Include="eclipse\img\elements\f6.jpg" />
+    <Content Include="eclipse\img\elements\f7.jpg" />
+    <Content Include="eclipse\img\elements\f8.jpg" />
+    <Content Include="eclipse\img\elements\g1.jpg" />
+    <Content Include="eclipse\img\elements\g2.jpg" />
+    <Content Include="eclipse\img\elements\g3.jpg" />
+    <Content Include="eclipse\img\elements\g4.jpg" />
+    <Content Include="eclipse\img\elements\g5.jpg" />
+    <Content Include="eclipse\img\elements\g6.jpg" />
+    <Content Include="eclipse\img\elements\g7.jpg" />
+    <Content Include="eclipse\img\elements\g8.jpg" />
+    <Content Include="eclipse\img\elements\primary-check.png" />
+    <Content Include="eclipse\img\elements\primary-radio.png" />
+    <Content Include="eclipse\img\elements\success-check.png" />
+    <Content Include="eclipse\img\elements\success-radio.png" />
+    <Content Include="eclipse\img\fav.png" />
+    <Content Include="eclipse\img\footer-bg.png" />
+    <Content Include="eclipse\img\header-img.png" />
+    <Content Include="eclipse\img\home-banner-bg.png" />
+    <Content Include="eclipse\img\i1.jpg" />
+    <Content Include="eclipse\img\i2.jpg" />
+    <Content Include="eclipse\img\i3.jpg" />
+    <Content Include="eclipse\img\i4.jpg" />
+    <Content Include="eclipse\img\i5.jpg" />
+    <Content Include="eclipse\img\i6.jpg" />
+    <Content Include="eclipse\img\i7.jpg" />
+    <Content Include="eclipse\img\i8.jpg" />
+    <Content Include="eclipse\img\logo.png" />
+    <Content Include="eclipse\img\next.png" />
+    <Content Include="eclipse\img\play-btn.png" />
+    <Content Include="eclipse\img\prev.png" />
+    <Content Include="eclipse\img\quote.png" />
+    <Content Include="eclipse\img\registration-bg.png" />
+    <Content Include="eclipse\img\testimonial\t1.jpg" />
+    <Content Include="eclipse\img\video-area-bg.png" />
+    <Content Include="eclipse\img\video-img.jpg" />
+    <Content Include="eclipse\js\hexagons.min.js" />
+    <Content Include="eclipse\js\ion.rangeSlider.js" />
+    <Content Include="eclipse\js\jquery.ajaxchimp.min.js" />
+    <Content Include="eclipse\js\jquery.counterup.min.js" />
+    <Content Include="eclipse\js\jquery.magnific-popup.min.js" />
+    <Content Include="eclipse\js\jquery.nice-select.min.js" />
+    <Content Include="eclipse\js\jquery.sticky.js" />
+    <Content Include="eclipse\js\main.js" />
+    <Content Include="eclipse\js\owl.carousel.min.js" />
+    <Content Include="eclipse\js\parallax.min.js" />
+    <Content Include="eclipse\js\vendor\bootstrap.min.js" />
+    <Content Include="eclipse\js\vendor\jquery-2.2.4.min.js" />
+    <Content Include="eclipse\js\waypoints.min.js" />
+    <Content Include="favicon.ico" />
+    <Content Include="Files\StudyMaterial\0315544766.mp4" />
+    <Content Include="Files\StudyMaterial\1541593949.txt" />
+    <Content Include="Files\StudyMaterial\1541594528.txt" />
+    <Content Include="Files\StudyMaterial\1637289219.mp4" />
+    <Content Include="Files\StudyMaterial\1657485545.txt" />
+    <Content Include="Files\StudyMaterial\1657485695.txt" />
+    <Content Include="Files\StudyMaterial\1657485755.mp4" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Images\DP\default.jpg" />
+    <Content Include="Images\ezgif-1-a2b87b265e.gif" />
+    <Content Include="Images\Logo.png" />
+    <Content Include="Images\Slider\0107226204.jpg" />
+    <Content Include="Images\Slider\1331220622.jpg" />
+    <Content Include="Images\Slider\1337345838.jpg" />
+    <Content Include="Scripts\active.js" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminAccount\ViewDepartment.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminAccount\CreateEmployee.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminAccount\Employees.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminAccount\ViewAllEmployees.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminAccount\EditEmployee.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminAccount\EmployeeDetails.cshtml" />
+    <Content Include="Areas\Faculty\Views\web.config" />
+    <Content Include="Areas\HOD\Views\web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Areas\HOD\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\HOD\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\HOD\Views\Subject\GetSubjects.cshtml" />
+    <Content Include="Areas\Admin\Views\ClassInfo\GetClasses.cshtml" />
+    <Content Include="Areas\HOD\Views\Subject\AddSubject.cshtml" />
+    <Content Include="Areas\HOD\Views\Subject\EditSubject.cshtml" />
+    <Content Include="Areas\HOD\Views\Subject\DeleteSubject.cshtml" />
+    <Content Include="Areas\HOD\Views\Subject\SubjectAllocation.cshtml" />
+    <Content Include="Areas\HOD\Views\Subject\AllocatedSubjects.cshtml" />
+    <Content Include="Areas\HOD\Views\Subject\EditAllocation.cshtml" />
+    <Content Include="Areas\Faculty\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Faculty\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Faculty\Views\StudyMaterial\AddStudyMaterial.cshtml" />
+    <Content Include="Areas\Faculty\Views\StudyMaterial\GetStudyMaterial.cshtml" />
+    <Content Include="Areas\Faculty\Views\StudyMaterial\DeleteMaterial.cshtml" />
+    <Content Include="Areas\HOD\Views\Subject\DeAllocateSubject.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminAccount\Index.cshtml" />
+    <Content Include="Areas\HOD\Views\HODHome\Index.cshtml" />
+    <Content Include="Areas\Student\Views\web.config" />
+    <Content Include="Areas\Student\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Student\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Student\Views\StudentHome\Index.cshtml" />
+    <Content Include="Areas\Faculty\Views\FacultyHome\Index.cshtml" />
+    <Content Include="Areas\Student\Views\StudentHome\Profile.cshtml" />
+    <Content Include="Areas\Student\Views\StudentHome\EditProfile.cshtml" />
+    <Content Include="Views\EmployeeProfile\EditProfile.cshtml" />
+    <Content Include="Views\EmployeeProfile\Profile.cshtml" />
+    <Content Include="Views\AttendanceAndResult\AddResult.cshtml" />
+    <Content Include="Areas\Student\Views\Result\ViewResult.cshtml" />
+    <Content Include="Areas\Student\Views\StudentAttendence\GetAttendence.cshtml" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\style.css.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\esm\popper-utils.js.map" />
+    <Content Include="Scripts\esm\popper-utils.min.js.map" />
+    <Content Include="Scripts\esm\popper.js.map" />
+    <Content Include="Scripts\esm\popper.min.js.map" />
+    <Content Include="Areas\Admin\Views\NotificationAndSlider\AddNotification.cshtml" />
+    <Content Include="Areas\Admin\Views\NotificationAndSlider\GetNotifications.cshtml" />
+    <Content Include="Areas\Admin\Views\NotificationAndSlider\AddSlider.cshtml" />
+    <Content Include="Areas\Admin\Views\NotificationAndSlider\GetSlider.cshtml" />
+    <Content Include="Areas\Admin\Views\NotificationAndSlider\EditNotification.cshtml" />
+    <Content Include="Areas\Admin\Views\NotificationAndSlider\DeleteNotification.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminAccount\GetStudents.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminAccount\GetFeedback.cshtml" />
+    <Content Include="Files\StudyMaterial\0240141110.pdf" />
+    <Content Include="Files\StudyMaterial\0314398766.pdf" />
+    <Content Include="Files\StudyMaterial\0320534170.pdf" />
+    <Content Include="Files\StudyMaterial\0358544037.pdf" />
+    <Content Include="Files\StudyMaterial\1553237412.xlsx" />
+    <Content Include="Files\StudyMaterial\1557208522.pdf" />
+    <Content Include="eclipse\.gitignore" />
+    <Content Include="eclipse\css\main.css.map" />
+    <Content Include="eclipse\eclipse education-doc\fonts\fontawesome-webfont.eot" />
+    <Content Include="eclipse\eclipse education-doc\fonts\fontawesome-webfont.ttf" />
+    <Content Include="eclipse\eclipse education-doc\fonts\fontawesome-webfont.woff" />
+    <Content Include="eclipse\eclipse education-doc\fonts\FontAwesome.otf" />
+    <Content Include="eclipse\fonts\fontawesome-webfont.eot" />
+    <Content Include="eclipse\fonts\fontawesome-webfont.ttf" />
+    <Content Include="eclipse\fonts\fontawesome-webfont.woff" />
+    <Content Include="eclipse\fonts\fontawesome-webfont.woff2" />
+    <Content Include="eclipse\fonts\FontAwesome.otf" />
+    <Content Include="eclipse\fonts\Linearicons-Free.eot" />
+    <Content Include="eclipse\fonts\Linearicons-Free.ttf" />
+    <Content Include="eclipse\fonts\Linearicons-Free.woff" />
+    <Content Include="eclipse\fonts\Linearicons-Free.woff2" />
+    <Content Include="eclipse\scss\main.scss" />
+    <Content Include="eclipse\scss\theme\_banner.scss" />
+    <Content Include="eclipse\scss\theme\_blog.scss" />
+    <Content Include="eclipse\scss\theme\_elements.scss" />
+    <Content Include="eclipse\scss\theme\_flexbox.scss" />
+    <Content Include="eclipse\scss\theme\_footer.scss" />
+    <Content Include="eclipse\scss\theme\_header.scss" />
+    <Content Include="eclipse\scss\theme\_home.scss" />
+    <Content Include="eclipse\scss\theme\_mixins.scss" />
+    <Content Include="eclipse\scss\theme\_predefined.scss" />
+    <Content Include="eclipse\scss\theme\_reset.scss" />
+    <Content Include="eclipse\scss\theme\_variables.scss" />
+    <Content Include="Areas\Admin\Views\NotificationAndSlider\AddEvents.cshtml" />
+    <Content Include="Areas\Admin\Views\NotificationAndSlider\GetAllEvents.cshtml" />
+    <Content Include="Areas\Student\Views\StudentHome\ChangePassword.cshtml" />
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\carbon.js" />
+    <Content Include="Scripts\demo.js" />
+    <Content Include="Scripts\esm\popper-utils.js" />
+    <Content Include="Scripts\esm\popper-utils.min.js" />
+    <Content Include="Scripts\esm\popper.js" />
+    <Content Include="Scripts\esm\popper.min.js" />
+    <Content Include="Scripts\jquery-2.2.4.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-ui-1.12.1.js" />
+    <Content Include="Scripts\jquery-ui-1.12.1.min.js" />
+    <Content Include="Scripts\jquery.signalR-2.4.1.js" />
+    <Content Include="Scripts\jquery.signalR-2.4.1.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\MyScripts\Scripts.js" />
+    <Content Include="Scripts\plugins.js" />
+    <Content Include="Scripts\popper-utils.js" />
+    <Content Include="Scripts\popper-utils.min.js" />
+    <Content Include="Scripts\popper.js" />
+    <Content Include="Scripts\popper.min.js" />
+    <Content Include="Scripts\umd\popper-utils.js" />
+    <Content Include="Scripts\umd\popper-utils.min.js" />
+    <Content Include="Scripts\umd\popper.js" />
+    <Content Include="Scripts\umd\popper.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\ForgetPassword.cshtml" />
+    <Content Include="Views\Account\ResetPassword.cshtml" />
+    <Content Include="Views\StudyMaterials\AddStudyMaterial.cshtml" />
+    <Content Include="Views\StudyMaterials\DeleteMaterial.cshtml" />
+    <Content Include="Views\StudyMaterials\GetStudyMaterial.cshtml" />
+    <Content Include="Views\StudyMaterials\GetMyStudyMaterial.cshtml" />
+    <Content Include="Views\StudyMaterials\MyStudyMaterialDetails.cshtml" />
+    <Content Include="Views\Chatroom\ChatRoom.cshtml" />
+    <Content Include="Views\Chatroom\Index.cshtml" />
+    <Content Include="Views\Chatroom\ViewReplies.cshtml" />
+    <Content Include="Views\EmployeeProfile\ChangePassword.cshtml" />
+    <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Scripts\popper-utils.min.js.map" />
+    <Content Include="Scripts\popper.js.map" />
+    <Content Include="Scripts\popper.min.js.map" />
+    <Content Include="Scripts\README.md" />
+    <Content Include="Scripts\umd\popper-utils.js.map" />
+    <Content Include="Scripts\umd\popper-utils.min.js.map" />
+    <Content Include="Scripts\umd\popper.js.map" />
+    <Content Include="Scripts\umd\popper.min.js.map" />
+    <Content Include="Views\AttendanceAndResult\Attendence.cshtml" />
+    <Content Include="Views\AttendanceAndResult\GetStudentsByClass.cshtml" />
+    <Content Include="Views\AttendanceAndResult\CheckResult.cshtml" />
+    <Content Include="Views\AttendanceAndResult\CheckAttendance.cshtml" />
+    <Content Include="Views\Home\NotificationDetails.cshtml" />
+    <Content Include="Views\Home\EventDetails.cshtml" />
+    <Content Include="Views\Home\GetAllFaculties.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AppFiles\" />
+    <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Faculty\Models\" />
+    <Folder Include="Areas\HOD\Models\" />
+    <Folder Include="Areas\Student\Models\" />
+    <Folder Include="eclipse\eclipse education-doc\img\" />
+    <Folder Include="Images\Events\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{1464e4fc-5726-4d4b-b4ca-4a711ffa81db}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModelLayer\ModelLayer.csproj">
+      <Project>{786e595d-889d-44a6-9e96-75b55815b622}</Project>
+      <Name>ModelLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\index.d.ts" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49893</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49893/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

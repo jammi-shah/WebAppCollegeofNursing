@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ModelLayer.StudyMaterial>
+
+@{
+    ViewBag.Title = "GetMyStudyMaterial";
+
+
+}
+
+<h2>My Study Material</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Topic)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayName("Subject")
+        </th>
+       
+        <th></th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Topic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Subject.SubName)
+            </td>
+           
+            <td>
+                @Html.ActionLink("Details","MyStudyMaterialDetails", new { id = item.Id }) |
+                @Html.ActionLink("Delete","DeleteMaterial", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>

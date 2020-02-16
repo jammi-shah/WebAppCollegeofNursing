@@ -1,0 +1,139 @@
+﻿@{
+    if (User.IsInRole("HOD"))
+    {
+        Layout = "~/Areas/HOD/Views/Shared/_Layout.cshtml";
+    }
+    else if (User.IsInRole("Student"))
+    {
+        Layout = "~/Areas/Student/Views/Shared/_Layout.cshtml";
+    }
+    else if (User.IsInRole("Faculty"))
+    {
+        Layout = "~/Areas/Faculty/Views/Shared/_Layout.cshtml";
+    }
+    else if (User.IsInRole("Admin"))
+    {
+        Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    }
+}
+@model IEnumerable<ModelLayer.ReplyVM>
+
+@{
+    ViewBag.Title = "ViewReplies";
+}
+<script src="~/Scripts/jquery.signalR-2.4.1.min.js"></script>
+<script src="~/signalr/hubs"></script>
+<div class="container" style="margin-bottom:300px">
+    <div class="row" id="commentDiv">
+        @if (ViewBag.Text != null)
+        {
+
+            <ul class="media-list jumbotron">
+                <li class="media" style="margin-left:30px;">
+                    <div class=" media-left">
+                        <a href="#" style="color:#333; text-decoration:none; display:inline">
+                            <img class="media-object img-circle" style="height:30px; display:inline; width:30px;" src="@Url.Content(ViewBag.ImagePath)">
+                            <span>&nbsp;@ViewBag.Name</span>
+                        </a>
+                    </div>
+                    <div class="media-body" id="Comments">
+                        @ViewBag.Text
+                        <div style="color:#ff6a00; font-size:12px;">@Convert.ToDateTime(ViewBag.CommentDate).ToString("dd-MM-yyyy hh:mm:ss tt")</div>
+                    </div>
+                </li>
+            </ul>
+
+
+        }
+    </div>
+    <div class="row pull-right" style="position:fixed; right:5%;">
+        <textarea class="form-control" id="txtReply" cols="42" rows="8" placeholder="Reply here..."></textarea>
+        <input type="button" class="btn btn-danger" id="btnReply" onclick="Reply(@ViewBag.CommentId)" value="Send" />
+    </div>
+
+    <div class="row col-md-8" id="replyDiv">
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <ul class="media-list">
+                    <li class="media well">
+                        <div class=" media-left row">
+                            <a href="#" style="color:#333; text-decoration:none; display:inline">
+                                <img class="media-object img-circle" style="height:30px; display:inline; width:30px;" src="@Url.Content(item.ImagePath)">
+                                <span>&nbsp;@item.UserName</span>
+                            </a>
+                        </div><br />
+                        <div class="media-body row" id="Comments">
+                            @item.Text
+                            <div style="color:#06a02a; font-size:12px;">@Convert.ToDateTime(item.ReplyDate).ToString("dd-MM-yyyy hh:mm:ss tt")</div>
+                        </div>
+                    </li>
+                </ul>
+            }
+        }
+
+    </div>
+
+
+
+</div>
+
+
+<script>
+    function dateString(date) {
+        var m = new Date(Date.parse(date));
+        var t = m.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })
+        return m.getUTCDate() + "-" + (m.getUTCMonth() + 1) + "-" + m.getUTCFullYear() + " " + t;
+    }
+    function Reply(commentId) {
+        var text = $('#txtReply').val();
+
+        var chat = $.connection.chatHub;
+        chat.client.broadcastReply = function (data) {
+            writeAtStartToReplyDiv(data);
+        }
+        $.connection.hub.start().done(function () {
+
+            chat.server.addReply(text, commentId);
+            $('#txtReply').val('').focus();
+        });
+
+    }
+    var writeAtStartToReplyDiv = function (data) {
+
+        //var date = new Date(Date.parse(data.CommentDate));
+        ////date.getFullYear() + "/" +
+        //var resultDate = date.getDate() + "/" + (date.getMonth() + 1) + "/   " + date.getHours() + ":" + date.getMinutes();
+        $('#replyDiv').prepend(
+            `
+                <ul class="media-list">
+                    <li class="media well">
+                        <div class=" media-left row">
+                            <a href="#" style="color:#333; text-decoration:none; display:inline">
+                                <img class="media-object img-circle" style="height:30px; display:inline; width:30px;" src="${(data.ImagePath).substr(1)}"/>
+                                <span>&nbsp;${data.UserName}</span>
+                            </a>
+                        </div><br />
+                        <div class="media-body row" id="Comments">
+                            ${data.Text}  <div style="color:#06a02a; font-size:12px;">${dateString(data.ReplyDate)}</div>
+                        </div>
+                    </li>
+                </ul>
+                `
+        );
+    }
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+after expire it should redirect us to home page
+short time of expire
+popup undefine home menu
+free youtube widget 
+sending email error
+
+check modelstate error on every page
+
+message status of forgot passsword
+
+message status of newsletter
+
+inline style on login page and forgot password and resetpassword contact page and newsletter on home page   done
+remove submit behavouir on home page
+
+
+NewTitle should be in h3
+
+change title dynamically as per news heading
+First Time Load page take too much time
+set facebook icon to facebook id
+remove icon besides category in layout page

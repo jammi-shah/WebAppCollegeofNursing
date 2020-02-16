@@ -1,0 +1,87 @@
+D:\College Projects\LiveCollegeProjects\NursingCollege\BLL\bin\Debug\BLL.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\BLL\bin\Debug\BLL.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\BLL\bin\Debug\DAL.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\BLL\bin\Debug\ModelLayer.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\BLL\bin\Debug\EntityFramework.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\BLL\bin\Debug\DAL.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\BLL\bin\Debug\DAL.dll.config
+D:\College Projects\LiveCollegeProjects\NursingCollege\BLL\bin\Debug\ModelLayer.pdb
+D:\College Projects\LiveCollegeProjects\NursingCollege\BLL\bin\Debug\EntityFramework.xml
+D:\College Projects\LiveCollegeProjects\NursingCollege\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\College Projects\LiveCollegeProjects\NursingCollege\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\College Projects\LiveCollegeProjects\NursingCollege\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\College Projects\LiveCollegeProjects\NursingCollege\BLL\obj\Debug\BLL.dll
+D:\College Projects\LiveCollegeProjects\NursingCollege\BLL\obj\Debug\BLL.pdb
+C:\Users\Shahid\Desktop\NursingCollege\BLL\bin\Debug\BLL.dll
+C:\Users\Shahid\Desktop\NursingCollege\BLL\bin\Debug\BLL.pdb
+C:\Users\Shahid\Desktop\NursingCollege\BLL\bin\Debug\DAL.dll
+C:\Users\Shahid\Desktop\NursingCollege\BLL\bin\Debug\ModelLayer.dll
+C:\Users\Shahid\Desktop\NursingCollege\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Shahid\Desktop\NursingCollege\BLL\bin\Debug\DAL.pdb
+C:\Users\Shahid\Desktop\NursingCollege\BLL\bin\Debug\DAL.dll.config
+C:\Users\Shahid\Desktop\NursingCollege\BLL\bin\Debug\ModelLayer.pdb
+C:\Users\Shahid\Desktop\NursingCollege\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Shahid\Desktop\NursingCollege\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Shahid\Desktop\NursingCollege\BLL\obj\Debug\BLL.dll
+C:\Users\Shahid\Desktop\NursingCollege\BLL\obj\Debug\BLL.pdb
+D:\College Projects\LiveCollegeProjects\BLL\bin\Debug\BLL.dll
+D:\College Projects\LiveCollegeProjects\BLL\bin\Debug\BLL.pdb
+D:\College Projects\LiveCollegeProjects\BLL\bin\Debug\DAL.dll
+D:\College Projects\LiveCollegeProjects\BLL\bin\Debug\ModelLayer.dll
+D:\College Projects\LiveCollegeProjects\BLL\bin\Debug\EntityFramework.dll
+D:\College Projects\LiveCollegeProjects\BLL\bin\Debug\DAL.pdb
+D:\College Projects\LiveCollegeProjects\BLL\bin\Debug\DAL.dll.config
+D:\College Projects\LiveCollegeProjects\BLL\bin\Debug\ModelLayer.pdb
+D:\College Projects\LiveCollegeProjects\BLL\bin\Debug\EntityFramework.xml
+D:\College Projects\LiveCollegeProjects\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\College Projects\LiveCollegeProjects\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\College Projects\LiveCollegeProjects\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\College Projects\LiveCollegeProjects\BLL\obj\Debug\BLL.dll
+D:\College Projects\LiveCollegeProjects\BLL\obj\Debug\BLL.pdb
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\BLL\bin\Debug\BLL.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\BLL\bin\Debug\BLL.pdb
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\BLL\bin\Debug\DAL.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\BLL\bin\Debug\ModelLayer.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\BLL\bin\Debug\EntityFramework.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\BLL\bin\Debug\DAL.pdb
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\BLL\bin\Debug\ModelLayer.pdb
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\BLL\bin\Debug\EntityFramework.xml
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\BLL\obj\Debug\BLL.dll
+C:\Users\jammi\Desktop\Copies\LiveCollegeProjects\BLL\obj\Debug\BLL.pdb
+D:\College Projects\MSCIT\LiveCollegeProjects\BLL\bin\Debug\BLL.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\BLL\bin\Debug\BLL.pdb
+D:\College Projects\MSCIT\LiveCollegeProjects\BLL\bin\Debug\DAL.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\BLL\bin\Debug\ModelLayer.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\BLL\bin\Debug\EntityFramework.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\BLL\bin\Debug\DAL.pdb
+D:\College Projects\MSCIT\LiveCollegeProjects\BLL\bin\Debug\DAL.dll.config
+D:\College Projects\MSCIT\LiveCollegeProjects\BLL\bin\Debug\ModelLayer.pdb
+D:\College Projects\MSCIT\LiveCollegeProjects\BLL\bin\Debug\EntityFramework.xml
+D:\College Projects\MSCIT\LiveCollegeProjects\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\College Projects\MSCIT\LiveCollegeProjects\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\College Projects\MSCIT\LiveCollegeProjects\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\College Projects\MSCIT\LiveCollegeProjects\BLL\obj\Debug\BLL.dll
+D:\College Projects\MSCIT\LiveCollegeProjects\BLL\obj\Debug\BLL.pdb
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\bin\Debug\BLL.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\bin\Debug\BLL.pdb
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\bin\Debug\DAL.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\bin\Debug\ModelLayer.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\bin\Debug\EntityFramework.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\bin\Debug\DAL.pdb
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\bin\Debug\ModelLayer.pdb
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\bin\Debug\EntityFramework.xml
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\obj\Debug\BLL.dll
+C:\Users\jammi\Downloads\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\obj\Debug\BLL.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\bin\Debug\BLL.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\bin\Debug\BLL.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\bin\Debug\DAL.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\bin\Debug\ModelLayer.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\bin\Debug\EntityFramework.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\bin\Debug\DAL.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\bin\Debug\ModelLayer.pdb
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\bin\Debug\EntityFramework.xml
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\obj\Debug\BLL.dll
+C:\Users\jammi\Desktop\backup\LiveCollegeProjects(2)\LiveCollegeProjects\BLL\obj\Debug\BLL.pdb

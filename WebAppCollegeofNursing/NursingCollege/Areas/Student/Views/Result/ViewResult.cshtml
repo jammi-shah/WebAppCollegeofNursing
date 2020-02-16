@@ -1,0 +1,27 @@
+﻿
+
+@{
+    ViewBag.Title = "ViewResult";
+}
+
+
+
+<div id="divMessage" class="alert alert-danger collapse"></div>
+<div class="row">
+    <div class="col-md-12">
+        @Html.DropDownList("Year", new List<SelectListItem>{
+                new SelectListItem{ Value="First Year", Text="First Year"},
+                new SelectListItem{ Value="Second Year", Text="Second Year"},
+                new SelectListItem{ Value="Third Year", Text="Third Year"},
+                new SelectListItem{ Value="Fourth Year", Text="Fourth Year"}
+            }, "select Year", new { @class = "form-control", id = "ddlYear" })
+        <a href="#" onclick="getResultByYear()" class="btn btn-primary">GetResult</a>
+    </div>
+</div>
+
+
+
+<div id="resultDiv" class="row">
+
+</div>
+

@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NursingCollegeDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="NursingCollegeDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Attendances" EntityType="NursingCollegeDBModel.Attendance" />
+    <EntitySet Name="AttendanceSheets" EntityType="NursingCollegeDBModel.AttendanceSheet" />
+    <EntitySet Name="ClassInfoes" EntityType="NursingCollegeDBModel.ClassInfo" />
+    <EntitySet Name="Comments" EntityType="NursingCollegeDBModel.Comment" />
+    <EntitySet Name="Contacts" EntityType="NursingCollegeDBModel.Contact" />
+    <EntitySet Name="Departments" EntityType="NursingCollegeDBModel.Department" />
+    <EntitySet Name="Employees" EntityType="NursingCollegeDBModel.Employee" />
+    <EntitySet Name="Events" EntityType="NursingCollegeDBModel.Event" />
+    <EntitySet Name="Notifications" EntityType="NursingCollegeDBModel.Notification" />
+    <EntitySet Name="Replies" EntityType="NursingCollegeDBModel.Reply" />
+    <EntitySet Name="Results" EntityType="NursingCollegeDBModel.Result" />
+    <EntitySet Name="Sliders" EntityType="NursingCollegeDBModel.Slider" />
+    <EntitySet Name="Students" EntityType="NursingCollegeDBModel.Student" />
+    <EntitySet Name="StudyMaterials" EntityType="NursingCollegeDBModel.StudyMaterial" />
+    <EntitySet Name="StudyMaterialFiles" EntityType="NursingCollegeDBModel.StudyMaterialFile" />
+    <EntitySet Name="SubjectAllocations" EntityType="NursingCollegeDBModel.SubjectAllocation" />
+    <EntitySet Name="Subjects" EntityType="NursingCollegeDBModel.Subject" />
+    <EntitySet Name="UserAccounts" EntityType="NursingCollegeDBModel.UserAccount" />
+    <AssociationSet Name="FK__Attendanc__Atten__32E0915F" Association="NursingCollegeDBModel.FK__Attendanc__Atten__32E0915F">
+      <End Role="Attendance" EntitySet="Attendances" />
+      <End Role="AttendanceSheet" EntitySet="AttendanceSheets" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Attendanc__Stude__30F848ED" Association="NursingCollegeDBModel.FK__Attendanc__Stude__30F848ED">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Attendance" EntitySet="Attendances" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Attendanc__Subje__31EC6D26" Association="NursingCollegeDBModel.FK__Attendanc__Subje__31EC6D26">
+      <End Role="Subject" EntitySet="Subjects" />
+      <End Role="Attendance" EntitySet="Attendances" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Subjects__ClassI__3F466844" Association="NursingCollegeDBModel.FK__Subjects__ClassI__3F466844">
+      <End Role="ClassInfo" EntitySet="ClassInfoes" />
+      <End Role="Subject" EntitySet="Subjects" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Comments__UserId__33D4B598" Association="NursingCollegeDBModel.FK__Comments__UserId__33D4B598">
+      <End Role="UserAccount" EntitySet="UserAccounts" />
+      <End Role="Comment" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reply__CommentId__35BCFE0A" Association="NursingCollegeDBModel.FK__Reply__CommentId__35BCFE0A">
+      <End Role="Comment" EntitySet="Comments" />
+      <End Role="Reply" EntitySet="Replies" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Subjects__Depart__403A8C7D" Association="NursingCollegeDBModel.FK__Subjects__Depart__403A8C7D">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="Subject" EntitySet="Subjects" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UserAccou__Depar__412EB0B6" Association="NursingCollegeDBModel.FK__UserAccou__Depar__412EB0B6">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="UserAccount" EntitySet="UserAccounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Employee__Id__34C8D9D1" Association="NursingCollegeDBModel.FK__Employee__Id__34C8D9D1">
+      <End Role="UserAccount" EntitySet="UserAccounts" />
+      <End Role="Employee" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SubjectAl__EmpId__3D5E1FD2" Association="NursingCollegeDBModel.FK__SubjectAl__EmpId__3D5E1FD2">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="SubjectAllocation" EntitySet="SubjectAllocations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reply__UserId__36B12243" Association="NursingCollegeDBModel.FK__Reply__UserId__36B12243">
+      <End Role="UserAccount" EntitySet="UserAccounts" />
+      <End Role="Reply" EntitySet="Replies" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Result__StudentI__37A5467C" Association="NursingCollegeDBModel.FK__Result__StudentI__37A5467C">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Result" EntitySet="Results" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Result__SubId__38996AB5" Association="NursingCollegeDBModel.FK__Result__SubId__38996AB5">
+      <End Role="Subject" EntitySet="Subjects" />
+      <End Role="Result" EntitySet="Results" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__Id__398D8EEE" Association="NursingCollegeDBModel.FK__Student__Id__398D8EEE">
+      <End Role="UserAccount" EntitySet="UserAccounts" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK__StudyMate__Study__3C69FB99" Association="NursingCollegeDBModel.FK__StudyMate__Study__3C69FB99">
+      <End Role="StudyMaterial" EntitySet="StudyMaterials" />
+      <End Role="StudyMaterialFile" EntitySet="StudyMaterialFiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__StudyMate__Subje__3A81B327" Association="NursingCollegeDBModel.FK__StudyMate__Subje__3A81B327">
+      <End Role="Subject" EntitySet="Subjects" />
+      <End Role="StudyMaterial" EntitySet="StudyMaterials" />
+    </AssociationSet>
+    <AssociationSet Name="FK__StudyMate__UserI__3B75D760" Association="NursingCollegeDBModel.FK__StudyMate__UserI__3B75D760">
+      <End Role="UserAccount" EntitySet="UserAccounts" />
+      <End Role="StudyMaterial" EntitySet="StudyMaterials" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SubjectAl__Subje__3E52440B" Association="NursingCollegeDBModel.FK__SubjectAl__Subje__3E52440B">
+      <End Role="Subject" EntitySet="Subjects" />
+      <End Role="SubjectAllocation" EntitySet="SubjectAllocations" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Attendance">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SubjectId" Type="Int32" />
+    <Property Name="StudentId" Type="Int64" />
+    <NavigationProperty Name="AttendanceSheets" Relationship="NursingCollegeDBModel.FK__Attendanc__Atten__32E0915F" FromRole="Attendance" ToRole="AttendanceSheet" />
+    <NavigationProperty Name="Student" Relationship="NursingCollegeDBModel.FK__Attendanc__Stude__30F848ED" FromRole="Attendance" ToRole="Student" />
+    <NavigationProperty Name="Subject" Relationship="NursingCollegeDBModel.FK__Attendanc__Subje__31EC6D26" FromRole="Attendance" ToRole="Subject" />
+  </EntityType>
+  <EntityType Name="AttendanceSheet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AttendanceId" Type="Int64" />
+    <Property Name="AttDate" Type="DateTime" Precision="0" />
+    <Property Name="AttStatus" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Attendance" Relationship="NursingCollegeDBModel.FK__Attendanc__Atten__32E0915F" FromRole="AttendanceSheet" ToRole="Attendance" />
+  </EntityType>
+  <EntityType Name="ClassInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClassName" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Subjects" Relationship="NursingCollegeDBModel.FK__Subjects__ClassI__3F466844" FromRole="ClassInfo" ToRole="Subject" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CommentDate" Type="DateTime" Precision="3" />
+    <Property Name="UserId" Type="Int64" />
+    <NavigationProperty Name="UserAccount" Relationship="NursingCollegeDBModel.FK__Comments__UserId__33D4B598" FromRole="Comment" ToRole="UserAccount" />
+    <NavigationProperty Name="Replies" Relationship="NursingCollegeDBModel.FK__Reply__CommentId__35BCFE0A" FromRole="Comment" ToRole="Reply" />
+  </EntityType>
+  <EntityType Name="Contact">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Subject" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Message" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DeptName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Subjects" Relationship="NursingCollegeDBModel.FK__Subjects__Depart__403A8C7D" FromRole="Department" ToRole="Subject" />
+    <NavigationProperty Name="UserAccounts" Relationship="NursingCollegeDBModel.FK__UserAccou__Depar__412EB0B6" FromRole="Department" ToRole="UserAccount" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" />
+    <Property Name="Designation" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DOJ" Type="DateTime" Precision="0" />
+    <Property Name="Qualification" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Specialization" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Experience" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="UserAccount" Relationship="NursingCollegeDBModel.FK__Employee__Id__34C8D9D1" FromRole="Employee" ToRole="UserAccount" />
+    <NavigationProperty Name="SubjectAllocations" Relationship="NursingCollegeDBModel.FK__SubjectAl__EmpId__3D5E1FD2" FromRole="Employee" ToRole="SubjectAllocation" />
+  </EntityType>
+  <EntityType Name="Event">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EventDate" Type="DateTime" Precision="0" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ImagePath" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Notification">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Reply">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ReplyDate" Type="DateTime" Precision="3" />
+    <Property Name="CommentId" Type="Int64" />
+    <Property Name="UserId" Type="Int64" />
+    <NavigationProperty Name="Comment" Relationship="NursingCollegeDBModel.FK__Reply__CommentId__35BCFE0A" FromRole="Reply" ToRole="Comment" />
+    <NavigationProperty Name="UserAccount" Relationship="NursingCollegeDBModel.FK__Reply__UserId__36B12243" FromRole="Reply" ToRole="UserAccount" />
+  </EntityType>
+  <EntityType Name="Result">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SubId" Type="Int32" />
+    <Property Name="StudentId" Type="Int64" />
+    <Property Name="Paper1" Type="Double" />
+    <Property Name="Paper2" Type="Double" />
+    <Property Name="Paper3" Type="Double" />
+    <Property Name="ModelPaper" Type="Double" />
+    <Property Name="PPT" Type="Double" />
+    <Property Name="Assignment" Type="Double" />
+    <Property Name="ClassPresentation" Type="Double" />
+    <Property Name="Attendence" Type="Double" />
+    <NavigationProperty Name="Student" Relationship="NursingCollegeDBModel.FK__Result__StudentI__37A5467C" FromRole="Result" ToRole="Student" />
+    <NavigationProperty Name="Subject" Relationship="NursingCollegeDBModel.FK__Result__SubId__38996AB5" FromRole="Result" ToRole="Subject" />
+  </EntityType>
+  <EntityType Name="Slider">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Caption" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ImagePath" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" />
+    <Property Name="RollNo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Batch" Type="Int32" />
+    <NavigationProperty Name="Attendances" Relationship="NursingCollegeDBModel.FK__Attendanc__Stude__30F848ED" FromRole="Student" ToRole="Attendance" />
+    <NavigationProperty Name="Results" Relationship="NursingCollegeDBModel.FK__Result__StudentI__37A5467C" FromRole="Student" ToRole="Result" />
+    <NavigationProperty Name="UserAccount" Relationship="NursingCollegeDBModel.FK__Student__Id__398D8EEE" FromRole="Student" ToRole="UserAccount" />
+  </EntityType>
+  <EntityType Name="StudyMaterial">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Topic" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SubjectId" Type="Int32" />
+    <Property Name="UserId" Type="Int64" />
+    <NavigationProperty Name="StudyMaterialFiles" Relationship="NursingCollegeDBModel.FK__StudyMate__Study__3C69FB99" FromRole="StudyMaterial" ToRole="StudyMaterialFile" />
+    <NavigationProperty Name="Subject" Relationship="NursingCollegeDBModel.FK__StudyMate__Subje__3A81B327" FromRole="StudyMaterial" ToRole="Subject" />
+    <NavigationProperty Name="UserAccount" Relationship="NursingCollegeDBModel.FK__StudyMate__UserI__3B75D760" FromRole="StudyMaterial" ToRole="UserAccount" />
+  </EntityType>
+  <EntityType Name="StudyMaterialFile">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FilePath" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="StudyMaterialId" Type="Int32" />
+    <NavigationProperty Name="StudyMaterial" Relationship="NursingCollegeDBModel.FK__StudyMate__Study__3C69FB99" FromRole="StudyMaterialFile" ToRole="StudyMaterial" />
+  </EntityType>
+  <EntityType Name="SubjectAllocation">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StartPeriod" Type="Time" Precision="7" />
+    <Property Name="EndPeriod" Type="Time" Precision="7" />
+    <Property Name="Batch" Type="Int32" />
+    <Property Name="SubjectId" Type="Int32" />
+    <Property Name="EmpId" Type="Int64" />
+    <NavigationProperty Name="Employee" Relationship="NursingCollegeDBModel.FK__SubjectAl__EmpId__3D5E1FD2" FromRole="SubjectAllocation" ToRole="Employee" />
+    <NavigationProperty Name="Subject" Relationship="NursingCollegeDBModel.FK__SubjectAl__Subje__3E52440B" FromRole="SubjectAllocation" ToRole="Subject" />
+  </EntityType>
+  <EntityType Name="Subject">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SubCode" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="SubName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ClassId" Type="Int32" />
+    <Property Name="DepartmentId" Type="Int32" />
+    <Property Name="IsDeleted" Type="Boolean" />
+    <NavigationProperty Name="Attendances" Relationship="NursingCollegeDBModel.FK__Attendanc__Subje__31EC6D26" FromRole="Subject" ToRole="Attendance" />
+    <NavigationProperty Name="ClassInfo" Relationship="NursingCollegeDBModel.FK__Subjects__ClassI__3F466844" FromRole="Subject" ToRole="ClassInfo" />
+    <NavigationProperty Name="Department" Relationship="NursingCollegeDBModel.FK__Subjects__Depart__403A8C7D" FromRole="Subject" ToRole="Department" />
+    <NavigationProperty Name="Results" Relationship="NursingCollegeDBModel.FK__Result__SubId__38996AB5" FromRole="Subject" ToRole="Result" />
+    <NavigationProperty Name="StudyMaterials" Relationship="NursingCollegeDBModel.FK__StudyMate__Subje__3A81B327" FromRole="Subject" ToRole="StudyMaterial" />
+    <NavigationProperty Name="SubjectAllocations" Relationship="NursingCollegeDBModel.FK__SubjectAl__Subje__3E52440B" FromRole="Subject" ToRole="SubjectAllocation" />
+  </EntityType>
+  <EntityType Name="UserAccount">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Parentage" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Gender" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="DOB" Type="DateTime" Precision="0" />
+    <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ContactNo" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ImagePath" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="DepartmentId" Type="Int32" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Salt" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ResetCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UserRole" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="UserCode" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Comments" Relationship="NursingCollegeDBModel.FK__Comments__UserId__33D4B598" FromRole="UserAccount" ToRole="Comment" />
+    <NavigationProperty Name="Department" Relationship="NursingCollegeDBModel.FK__UserAccou__Depar__412EB0B6" FromRole="UserAccount" ToRole="Department" />
+    <NavigationProperty Name="Employee" Relationship="NursingCollegeDBModel.FK__Employee__Id__34C8D9D1" FromRole="UserAccount" ToRole="Employee" />
+    <NavigationProperty Name="Replies" Relationship="NursingCollegeDBModel.FK__Reply__UserId__36B12243" FromRole="UserAccount" ToRole="Reply" />
+    <NavigationProperty Name="Student" Relationship="NursingCollegeDBModel.FK__Student__Id__398D8EEE" FromRole="UserAccount" ToRole="Student" />
+    <NavigationProperty Name="StudyMaterials" Relationship="NursingCollegeDBModel.FK__StudyMate__UserI__3B75D760" FromRole="UserAccount" ToRole="StudyMaterial" />
+  </EntityType>
+  <Association Name="FK__Attendanc__Atten__32E0915F">
+    <End Type="NursingCollegeDBModel.Attendance" Role="Attendance" Multiplicity="0..1" />
+    <End Type="NursingCollegeDBModel.AttendanceSheet" Role="AttendanceSheet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Attendance">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AttendanceSheet">
+        <PropertyRef Name="AttendanceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Attendanc__Stude__30F848ED">
+    <End Type="NursingCollegeDBModel.Student" Role="Student" Multiplicity="0..1" />
+    <End Type="NursingCollegeDBModel.Attendance" Role="Attendance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Attendance">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Attendanc__Subje__31EC6D26">
+    <End Type="NursingCollegeDBModel.Subject" Role="Subject" Multiplicity="0..1" />
+    <End Type="NursingCollegeDBModel.Attendance" Role="Attendance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Attendance">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Subjects__ClassI__3F466844">
+    <End Type="NursingCollegeDBModel.ClassInfo" Role="ClassInfo" Multiplicity="0..1" />
+    <End Type="NursingCollegeDBModel.Subject" Role="Subject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClassInfo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Subject">
+        <PropertyRef Name="ClassId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Comments__UserId__33D4B598">
+    <End Type="NursingCollegeDBModel.UserAccount" Role="UserAccount" Multiplicity="0..1" />
+    <End Type="NursingCollegeDBModel.Comment" Role="Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserAccount">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reply__CommentId__35BCFE0A">
+    <End Type="NursingCollegeDBModel.Comment" Role="Comment" Multiplicity="0..1" />
+    <End Type="NursingCollegeDBModel.Reply" Role="Reply" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Comment">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Reply">
+        <PropertyRef Name="CommentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Subjects__Depart__403A8C7D">
+    <End Type="NursingCollegeDBModel.Department" Role="Department" Multiplicity="0..1" />
+    <End Type="NursingCollegeDBModel.Subject" Role="Subject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Subject">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UserAccou__Depar__412EB0B6">
+    <End Type="NursingCollegeDBModel.Department" Role="Department" Multiplicity="0..1" />
+    <End Type="NursingCollegeDBModel.UserAccount" Role="UserAccount" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserAccount">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Employee__Id__34C8D9D1">
+    <End Type="NursingCollegeDBModel.UserAccount" Role="UserAccount" Multiplicity="1" />
+    <End Type="NursingCollegeDBModel.Employee" Role="Employee" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="UserAccount">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SubjectAl__EmpId__3D5E1FD2">
+    <End Type="NursingCollegeDBModel.Employee" Role="Employee" Multiplicity="0..1" />
+    <End Type="NursingCollegeDBModel.SubjectAllocation" Role="SubjectAllocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SubjectAllocation">
+        <PropertyRef Name="EmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reply__UserId__36B12243">
+    <End Type="NursingCollegeDBModel.UserAccount" Role="UserAccount" Multiplicity="0..1" />
+    <End Type="NursingCollegeDBModel.Reply" Role="Reply" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserAccount">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Reply">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Result__StudentI__37A5467C">
+    <End Type="NursingCollegeDBModel.Student" Role="Student" Multiplicity="0..1" />
+    <End Type="NursingCollegeDBModel.Result" Role="Result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Result">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Result__SubId__38996AB5">
+    <End Type="NursingCollegeDBModel.Subject" Role="Subject" Multiplicity="0..1" />
+    <End Type="NursingCollegeDBModel.Result" Role="Result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Result">
+        <PropertyRef Name="SubId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__Id__398D8EEE">
+    <End Type="NursingCollegeDBModel.UserAccount" Role="UserAccount" Multiplicity="1" />
+    <End Type="NursingCollegeDBModel.Student" Role="Student" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="UserAccount">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__StudyMate__Study__3C69FB99">
+    <End Type="NursingCollegeDBModel.StudyMaterial" Role="StudyMaterial" Multiplicity="0..1" />
+    <End Type="NursingCollegeDBModel.StudyMaterialFile" Role="StudyMaterialFile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StudyMaterial">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudyMaterialFile">
+        <PropertyRef Name="StudyMaterialId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__StudyMate__Subje__3A81B327">
+    <End Type="NursingCollegeDBModel.Subject" Role="Subject" Multiplicity="0..1" />
+    <End Type="NursingCollegeDBModel.StudyMaterial" Role="StudyMaterial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudyMaterial">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__StudyMate__UserI__3B75D760">
+    <End Type="NursingCollegeDBModel.UserAccount" Role="UserAccount" Multiplicity="0..1" />
+    <End Type="NursingCollegeDBModel.StudyMaterial" Role="StudyMaterial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserAccount">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudyMaterial">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SubjectAl__Subje__3E52440B">
+    <End Type="NursingCollegeDBModel.Subject" Role="Subject" Multiplicity="0..1" />
+    <End Type="NursingCollegeDBModel.SubjectAllocation" Role="SubjectAllocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SubjectAllocation">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

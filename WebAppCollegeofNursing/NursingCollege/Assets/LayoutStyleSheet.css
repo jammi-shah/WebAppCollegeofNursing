@@ -1,0 +1,42 @@
+﻿body {
+    font-family: 'Lucida Sans';
+    /*color: lightseagreen;*/
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #2c3e50;
+    font-weight: 400;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+#extfooter {
+  
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer img {
+    margin-bottom: 30px;
+}
+
+.contactftrdivs {
+    text-align: center;
+    border: 1px solid white;
+    height: 160px;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    /*border: 1px solid white*/;
+    margin-bottom: 10px;
+}
+
+.carousel-inner .item img {
+    height: 420px;
+    width: 100%;
+}

@@ -1,0 +1,130 @@
+﻿@{
+    if (User.IsInRole("HOD"))
+    {
+        Layout = "~/Areas/HOD/Views/Shared/_Layout.cshtml";
+    }
+    else if (User.IsInRole("Student"))
+    {
+        Layout = "~/Areas/Student/Views/Shared/_Layout.cshtml";
+    }
+    else if (User.IsInRole("Faculty"))
+    {
+        Layout = "~/Areas/Faculty/Views/Shared/_Layout.cshtml";
+    }
+    else if (User.IsInRole("Admin"))
+    {
+        Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    }
+}
+<script src="~/Scripts/jquery.signalR-2.4.1.min.js"></script>
+<script src="~/signalr/hubs"></script>
+
+<div class="container" style="margin-bottom:100px">
+    <h2 class="text-center" style="color:#0026ff">Chat Forum College of Nursing</h2>
+    <hr />
+    <div class="row pull-right" style="margin-right:30px; position:fixed; right:5%;">
+        <div class="" style="margin-bottom:300px;">
+
+            <textarea class="form-control" name="Text" id="CommentText" rows="8" placeholder="Comment here..."></textarea>
+            <input type="submit" class="btn btn-danger" id="btnComment" name="Comment" value="Comment" />
+
+        </div>
+    </div>
+    <div id="mediaList" class="col-md-8">
+
+    </div>
+    <div class="clearfix"></div>
+
+</div>
+<div id="dynamicDiv" style="display:none"></div>
+@*<script src="~/Scripts/jquery-3.3.1.min.js"></script>*@
+
+<script>
+
+    $.connection.chatHub.logging = true;
+
+
+    $(function () {
+        var chat = $.connection.chatHub;
+
+
+        chat.client.broadcastMessage = function (data) {
+
+            WriteAtStartCommentDiv(data);
+        }
+        $.connection.hub.start().done(function () {
+            $('#btnComment').click(function () {
+                //var formData = new FormData();
+                //formData.append('file',$('#file')[0].files[0]);
+                //formData.append('comment1', $('#CommentText').val());
+
+                chat.server.addComment($('#CommentText').val());
+                $('#CommentText').val('').focus();
+
+            });
+            chat.server.getComments()
+                .done(function (data) {
+                    writeToCommentDiv(data);
+                });
+        });
+
+
+
+    });
+    var writeToCommentDiv = function (data) {
+
+        $(data).each(function (i, e) {
+            var m = new Date(Date.parse(e.CommentDate));
+            var t = m.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })
+            var fdate = m.getUTCDate() + "-" + (m.getUTCMonth() + 1) + "-" + m.getUTCFullYear() + " " + t;
+
+            $('#mediaList').append(
+                `<ul class="media-list">
+                            <li class="media well" >
+                                <div class=" media-left row">
+                                    <a href="#" style="color:#333; text-decoration:none; display:inline">
+                                        <img class="media-object img-circle" style= "height:30px; display:inline; width:30px;" src='${(e.ImagePath).substr(1)}' >
+                                        <span>&nbsp;${e.UserName}</span>
+                                        <div style="color:#06a02a; font-size:12px;">${fdate}</div>
+                                    </a>
+                                </div><br />
+                                <div class="media-body row" id="Comments">
+                                    <span style="color:coral;">Topic: </span> ${e.Text}
+                                </div>
+                                <div>
+                                    <a href="/ChatRoom/ViewReplies?cId=${ e.Id}" name="ViewReplies" onclick="getReplies(${e.Id})" style="font-size:12px; color:red; text-decoration:none;"><i class="glyphicon glyphicon-share-alt"></i> ViewReplies<span class="glyphicon glyphicon-"></span></a>
+                                </div>
+                    </ul> `
+            )
+        });
+
+    }
+    var WriteAtStartCommentDiv = function (data) {
+        var cData = new Date(Date.parse(data.CommentDate));
+        var formatTime = cData.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })
+        var fdate = cData.getUTCDate() + "-" + (cData.getUTCMonth() + 1) + "-" + cData.getUTCFullYear() + " " + formatTime;
+        $('#mediaList').prepend(
+            `<ul class="media-list">
+                    <li class="media well" >
+                        <div class=" media-left row">
+                            <a href="#" style="color:#333; text-decoration:none; display:inline">
+                                <img class="media-object img-circle" style= "height:30px; display:inline; width:30px;" src= "${(data.ImagePath).substr(1)}" >
+                                <span>&nbsp;${data.UserName}</span>
+                                <div style="color:#06a02a; font-size:12px;">${fdate}</div>
+                            </a>
+                        </div><br />
+                        <div class="media-body row" id="Comments">
+                            <span style="color:coral;">Topic: </span> ${data.Text}
+                        </div>
+                        <div>
+                            <a href="/ChatRoom/ViewReplies?cId=${ data.Id}" name="ViewReplies" onclick="getReplies(${data.Id})" style="font-size:12px; color:red; text-decoration:none;"><i class="glyphicon glyphicon-share-alt"></i> ViewReplies<span class="glyphicon glyphicon-"></span></a>
+                        </div>
+                    </ul> `
+        )
+    }
+</script>
+
+
+
+
+

@@ -1,0 +1,62 @@
+﻿@model ModelLayer.StudyMaterial
+
+@{
+    ViewBag.Title = "MyStudyMaterialDetails";
+   
+}
+
+
+<div>
+    <h4>Study Material</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Topic)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Topic)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Subject.SubName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject.SubName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Files)
+        </dt>
+
+        <dd>
+            <ul>
+           
+            @foreach (var StudyMaterialfile in Model.StudyMaterialFiles)
+            {
+                <li>
+                    @if ((Path.GetExtension(StudyMaterialfile.FilePath)).ToLower() == ".mp4")
+                    {
+                        <video controls="controls" src="@Url.Content(StudyMaterialfile.FilePath)" style="height:300px;width:400px" autoplay loop></video>
+                    }
+                  
+                        @Html.ActionLink("Download", "DownloadFile", new { FilePath = StudyMaterialfile.FilePath })
+
+
+                </li>
+            }
+            </ul>
+        </dd>
+
+    </dl>
+</div>
+

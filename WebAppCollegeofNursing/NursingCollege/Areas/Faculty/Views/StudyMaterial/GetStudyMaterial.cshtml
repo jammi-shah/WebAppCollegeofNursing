@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ModelLayer.StudyMaterial>
+
+@{
+    ViewBag.Title = "GetStudyMaterial";
+}
+
+<h2>GetStudyMaterial</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Topic)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayName("Subject")
+        </th>
+        <th>
+            @Html.DisplayName("Uploaded By")
+        </th>
+        <th>Download</th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Topic)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Subject.SubName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserAccount.Name)
+        </td>
+        <td>
+            @foreach (var file in item.StudyMaterialFiles)
+            {
+               @Html.ActionLink("Download", "DownloadFile", new { FilePath = file.FilePath }, new { @class = "btn btn-primary" })
+            }
+
+        </td>
+        <td>
+            @Html.ActionLink("Delete Material", "DeleteMaterial", new { id=item.Id },new {@class="btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NursingCollege", "NursingCollege\NursingCollege.csproj", "{8DAE46A3-C56C-49F2-94F0-AE86E6B737B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{CF70AA3A-6F9F-4CE5-B394-F1B19BDECDDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{1464E4FC-5726-4D4B-B4CA-4A711FFA81DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelLayer", "ModelLayer\ModelLayer.csproj", "{786E595D-889D-44A6-9E96-75B55815B622}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DAE46A3-C56C-49F2-94F0-AE86E6B737B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DAE46A3-C56C-49F2-94F0-AE86E6B737B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DAE46A3-C56C-49F2-94F0-AE86E6B737B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DAE46A3-C56C-49F2-94F0-AE86E6B737B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF70AA3A-6F9F-4CE5-B394-F1B19BDECDDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF70AA3A-6F9F-4CE5-B394-F1B19BDECDDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF70AA3A-6F9F-4CE5-B394-F1B19BDECDDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF70AA3A-6F9F-4CE5-B394-F1B19BDECDDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1464E4FC-5726-4D4B-B4CA-4A711FFA81DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1464E4FC-5726-4D4B-B4CA-4A711FFA81DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1464E4FC-5726-4D4B-B4CA-4A711FFA81DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1464E4FC-5726-4D4B-B4CA-4A711FFA81DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{786E595D-889D-44A6-9E96-75B55815B622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786E595D-889D-44A6-9E96-75B55815B622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786E595D-889D-44A6-9E96-75B55815B622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786E595D-889D-44A6-9E96-75B55815B622}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9D0078F-8CB3-4D00-9090-E8851BEDCEBA}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://logichubss.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = NursingCollege\\NursingCollege.csproj
+		SccProjectName1 = NursingCollege
+		SccLocalPath1 = NursingCollege
+		SccProjectUniqueName2 = DAL\\DAL.csproj
+		SccProjectName2 = DAL
+		SccLocalPath2 = DAL
+		SccProjectUniqueName3 = BLL\\BLL.csproj
+		SccProjectName3 = BLL
+		SccLocalPath3 = BLL
+		SccProjectUniqueName4 = ModelLayer\\ModelLayer.csproj
+		SccProjectName4 = ModelLayer
+		SccLocalPath4 = ModelLayer
+	EndGlobalSection
+EndGlobal

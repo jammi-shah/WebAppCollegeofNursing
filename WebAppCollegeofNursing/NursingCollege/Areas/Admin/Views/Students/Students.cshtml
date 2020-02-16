@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Students";
+}
+
+<h2>Students</h2>
+<ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" style="width:200px;" href="#viewAllTab">View All</a></li>
+    <li><a data-toggle="tab" style="width:200px;" href="#secondTab">Activate Accounts</a></li>
+</ul>
+<div class="tab-content">
+
+    <div id="viewAllTab" class="tab-pane fade in active">
+        @Html.Action("ViewAllStudents")
+    </div>
+    <div id="secondTab" class="tab-pane fade in">
+        @Html.Action("BlockedStudents")
+    </div>
+
+</div>
+

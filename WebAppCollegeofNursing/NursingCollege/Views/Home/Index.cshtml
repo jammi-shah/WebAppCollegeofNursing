@@ -1,0 +1,158 @@
+﻿@model ModelLayer.HomeVM
+
+@{
+    ViewBag.Title = "Home Page";
+}
+<div >
+    <marquee style="border-bottom: 1px solid dodgerblue; padding:1rem;" width="100%">
+        <ul style="font-size:20px; list-style-type:square !important; color:#ffffff; display:flex; flex-direction:row; flex-wrap:wrap; justify-content:space-between">
+            @foreach (var item in Model.Notifications)
+            {
+                <li> @Html.ActionLink(item.Title, "NotificationDetails", new { id = item.Id }, new { style = "color:#ffffff" })</li>
+            }
+        </ul>
+    </marquee>
+
+    <section class="testimonials-area section-gap">
+        <div class="container">
+            <div class="testi-slider owl-carousel" data-slider-id="1">
+                <div class="row align-items-center">
+                    <div class="col-lg-3">
+                        <div class="item">
+                            <div class="testi-item">
+
+                                <div class="mt-40 text">
+
+                                    <p class="text-center" style="color:aliceblue; font-weight:600;">
+                                            @Model.Sliders.FirstOrDefault().Caption
+                                    </p>
+                                    <p style="color:aliceblue;">
+                                        @Model.Sliders.FirstOrDefault().Description
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <img src="@Url.Content(Model.Sliders.FirstOrDefault().ImagePath)" style="height:400px !important;" alt="" />
+                    </div>
+                </div>
+                @foreach (var item in Model.Sliders.Skip(1))
+                {
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-3">
+
+                            <div class="item">
+                                <div class="testi-item">
+
+                                    <div class="mt-40 text">
+
+                                        <p class="text-center" style="color:aliceblue; font-weight:600;">
+                                            @item.Caption
+                                        </p>
+                                        <p style="color:aliceblue;">
+                                            @item.Description
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-9">
+                            <img src="@Url.Content(item.ImagePath)" style="height:400px !important;" alt="" />
+                        </div>
+
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+    <section class="popular-course-area section-gap">
+        <div class="container-fluid">
+            <div class="row justify-content-center section-title">
+                <div class="col-lg-12">
+                    <h2 style="color:aliceblue;">
+                        Events <br />
+                    </h2>
+                    <p style="color:aliceblue;">
+                        Latest Events
+                    </p>
+                </div>
+            </div>
+
+            <div class="owl-carousel popuar-course-carusel">
+                @foreach (var item in Model.Events)
+                {
+                    <div class="single-popular-course" style="height:350px !important; overflow:hidden !important">
+
+                        <div class="thumb">
+                            <img style="height:200px;" class="f-img img-fluid mx-auto" src="@Url.Content(item.ImagePath)" alt="" />
+                        </div>
+                        <div class="details">
+                            <div class="d-flex justify-content-between mb-20">
+                                <p class="name">@Convert.ToDateTime(item.EventDate).ToShortDateString()</p>
+                                <p class="value"></p>
+                            </div>
+                            <a href="@Url.Action("EventDetails",new { id=item.Id})">
+                                <h6 style="overflow:hidden">@item.Description</h6>
+                            </a>
+                        </div>
+
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+    
+    <section class="blog-post-area section-gap">
+        <div class="container-fluid">
+            <div class="feature-inner row">
+                <div class="col-lg-12">
+                    <div class="section-title text-left">
+                        <h2 style="color:aliceblue;">
+                            Faculties <br />
+
+                        </h2>
+                        <p style="color:aliceblue;">
+                            The College is blessed with the best and most qualified Faculty in the state
+                        </p>
+                    </div>
+                </div>
+                @foreach (var item in Model.Faculty)
+                {
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-blog-post">
+                            <img src="@Url.Content(item.ImagePath)" class="img-fluid" alt="" />
+                            <div class="overlay"></div>
+                            <div class="text">
+                                <p>@item.Name</p>
+                                <p>@item.Employee.Designation</p>
+                                <p>@item.Employee.Qualification</p>
+                                <p>@item.Employee.Specialization</p>
+                            </div>
+                            <div class="text">
+                                <h4 class="text-white">@item.Employee.Specialization</h4>
+                                <div>
+                                    <p>
+                                        @item.Employee.Experience
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <br /><br /><br />
+                    </div>
+
+                }
+                <br />
+                <div>
+                    <a href="@Url.Action("GetAllFaculties")" class="btn btn-primary btn-block">View More...</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div>

@@ -1,0 +1,176 @@
+﻿@model ModelLayer.Department
+
+@{
+    ViewBag.Title = "CreateDepartment";
+}
+<div class="container">
+    <div class="col-md-12">
+        <div class="col-md-6">
+            <h2>Create Department</h2>
+            <hr />
+
+            <div id="messageDiv" class="alert  collapse ">
+
+            </div>
+
+
+            <form id="deptForm">
+
+                <div class="form-horizontal">
+
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DeptName, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.DeptName, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.DeptName, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="button" value="Add Department" id="btnSubmit" class="btn btn-primary btn-block" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6">
+
+            <h1>Departments</h1>
+            <hr />
+
+            <table class="table table-condensed table-hover">
+                <thead>
+                    <tr>
+                        <th>Department</th>
+                    </tr>
+                </thead>
+                <tbody id="tblBody"></tbody>
+            </table>
+        </div>
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal-label">
+            <div class="modal-dialog modal-df" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModal-label">Edit Department</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post" id="editForm">
+                            <input type="hidden" name="Id" id="txtId" class="form-control" />
+
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.DeptName, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.DeptName, new { htmlAttributes = new { @class = "form-control", id = "txtDeptName" } })
+                                    @Html.ValidationMessageFor(model => model.DeptName, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <input type="button" id="btnSave" value="Save" class="btn btn-primary btn-block" />
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    loadDepartments();
+    $('#btnSubmit').click(function () {
+        createDepartments();
+
+    });
+
+    function createDepartments() {
+        var tbl = $('#tblBody');
+        if ($('#deptForm').valid()) {
+            $.ajax({
+                url: "/AdminAccount/CreateDepartment",
+                method: 'post',
+                data: $('#deptForm').serialize(),
+                success: function (department) {
+                    if (department.Id == -1) {
+
+                        $('#messageDiv').removeClass("alert-success");
+                        $('#messageDiv').html("Department Already Exists").addClass("alert-danger").show();
+                    }
+                    else {
+                        $('#messageDiv').removeClass("alert-danger");
+                        $('#messageDiv').html("Department Created Successfully").addClass("alert-success").show();
+                        tbl.prepend(` <tr><td>${department.DeptName}</td>
+                    <td><a class="btn btn-primary btn-sm" onclick="Edit('${department.DeptName}','${department.Id}')" >
+                                        <i class="fa fa-edit"></i></a></td>
+                            </tr> `)
+                    }
+                },
+                error: function () {
+                    $('#messageDiv').html("There is some issue please try later").addClass("alert-danger").show();
+                }
+            });
+        }
+
+    }
+
+    function loadDepartments() {
+
+        var tbl = $('#tblBody');
+        tbl.empty();
+        $.ajax({
+            url: "/AdminAccount/GetAllDepartment",
+            method: 'get',
+            dataType: 'json',
+            success: function (departments) {
+
+                $.each(departments, function (index, department) {
+                    tbl.append(` <tr><td>${department.DeptName}</td>
+                                    <td><a class="btn btn-primary btn-sm" onclick="Edit('${department.DeptName}','${department.Id}')" >
+                                        <i class="fa fa-edit"></i></a></td>
+                                </tr> `)
+                });
+            },
+            error: function () {
+                
+            }
+        });
+    }
+
+    function Edit(deptName, id) {
+        $('#txtDeptName').val(deptName);
+        $('#txtId').val(id);
+        $('.modal').modal('show');
+    }
+
+    $('#btnSave').click(function () {
+        if ($('#editForm').valid()) {
+            $.ajax({
+                url: "/AdminAccount/EditDepartment",
+                data: $('#editForm').serialize(),
+                method: 'post',
+                success: function () {
+                    loadDepartments();
+                    $('.modal').modal('hide');
+                    $('#messageDiv').html("Department Updated Successfully").addClass(" alert-success").show();
+                }
+            })
+        }
+    });
+</script>
+
+
+
+
+
+
+
+
+
+

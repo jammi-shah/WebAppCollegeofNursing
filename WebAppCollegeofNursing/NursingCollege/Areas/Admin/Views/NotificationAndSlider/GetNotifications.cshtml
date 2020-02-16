@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ModelLayer.Notification>
+
+@{
+    ViewBag.Title = "GetNotifications";
+}
+
+<h2>Notifications</h2>
+
+<p>
+    @Html.ActionLink("Add New Notification", "AddNotification",null,new {@class="btn btn-block btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditNotification", new { id=item.Id }, new { @class = "btn btn-block btn-primary" }) 
+            @Html.ActionLink("Delete", "DeleteNotification", new { id=item.Id }, new { @class = "btn btn-block btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>

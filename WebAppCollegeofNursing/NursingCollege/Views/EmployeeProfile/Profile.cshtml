@@ -1,0 +1,140 @@
+﻿
+@model ModelLayer.UserAccount
+
+@{
+    ViewBag.Title = "ViewProfile";
+}
+
+<h2>Profile</h2>
+
+<link href="~/Assets/CustomStyleSheet.css" rel="stylesheet" />
+<div class="container emp-profile">
+    <form method="post">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="profile-img">
+                    <img src="@Url.Content(Model.ImagePath)" alt="No Image Found" />
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="profile-head">
+                    <h3>
+                        @Html.DisplayFor(model => model.Name)
+                    </h3>
+
+
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-2">
+                @Html.ActionLink("Edit Profile", "EditProfile", null, new { @class = "btn btn-primary" })
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="profile-work">
+
+                    <br />
+                    <div>
+                        <div class="col-md-6">
+                            <label>Emp Code</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p>@Model.UserCode</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="col-md-6">
+                            <label>Department</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p>@Model.Department.DeptName</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="col-md-6">
+                            <label>Designation</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p>@Model.Employee.Designation</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="col-md-6">
+                            <label>Experience</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p>@Model.Employee.Experience</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col-md-6">
+                            <label>Specialization</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p>@Model.Employee.Specialization</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="tab-content profile-tab" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Parentage</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Model.Parentage</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Gender</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Model.Gender</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Email</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Model.Email</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Contact NO</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Model.ContactNo</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Address</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Model.Address</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+

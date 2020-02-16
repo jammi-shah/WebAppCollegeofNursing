@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ModelLayer.Event>
+
+@{
+    ViewBag.Title = "GetAllEvents";
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.EventDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+          
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.EventDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            <img src="@Url.Content(item.ImagePath)" width="120" height="100" alt="No Image Found" />
+        </td>
+        <td>
+            @Html.ActionLink("Delete", "DeleteEvent", new { id = item.Id }, new { onclick = "return confirm('Are you sure you want to delete')", @class = "btn btn-primary" })
+
+            @if (item.IsActive == true)
+            {
+                @Html.ActionLink("Block", "BlockEvent", new { id = item.Id }, new { @class = "btn btn-danger" })
+            }
+            else
+            {
+                @Html.ActionLink("UnBlock", "BlockEvent", new { id = item.Id }, new { @class = "btn btn-success" })
+            }
+        </td>
+    </tr>
+}
+
+</table>

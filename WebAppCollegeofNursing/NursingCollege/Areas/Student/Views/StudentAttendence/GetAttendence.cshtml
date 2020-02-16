@@ -1,0 +1,124 @@
+﻿
+
+@{
+    ViewBag.Title = "GetStudentsByClass";
+}
+
+
+
+<div id="divMessage" class="alert alert-danger collapse"></div>
+<div class="row">
+    <div class="col-md-4 col-md-offset-4">
+        @Html.DropDownList("Year", new List<SelectListItem>
+   {
+       new SelectListItem{Text ="First Year", Value="1" },
+       new SelectListItem{Text ="Second Year", Value="2" },
+       new SelectListItem{Text ="Third Year", Value="3" },
+       new SelectListItem{Text ="Fourth Year", Value="4" }
+   }, "select Year", new { @class = "form-control" })
+        @*@Html.DropDownList("Subject", null, "select Subject", new { @class = "form-control" })*@
+        <select id="Subject">
+            <option value="">Select Subject</option>
+        </select>
+        <input type="text" id="fromDate" value="@Convert.ToDateTime(DateTime.Now).ToString("dd/MM/yy")" />
+        <input type="text" id="toDate" value="@Convert.ToDateTime(DateTime.Now).ToString("dd/MM/yy")" />
+        <input type="button" class="btn btn-danger" id="btnGetAttendence" value="Get Attendance" />
+    </div>
+</div>
+
+<table class="table table-responsive">
+    
+    <tr>
+        <th>
+            Date
+        </th>
+        <th>
+            Status
+        </th>
+    </tr>
+
+    <tbody id="tblAttendence"></tbody>
+</table>
+
+<script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+<link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+<script>
+    $('#fromDate').datepicker({ dateFormat: "dd/mm/yy", changeMonth: true, });
+    $('#toDate').datepicker({ dateFormat: "dd/mm/yy", changeMonth: true, });
+
+    $(document).ready(function () {
+        $('#Year').change(function () {
+            var subj = $('#Subject');
+
+            subj.empty();
+            subj.append(new Option("Select Subject",""));
+            $.ajax({
+                url: "/StudentAttendence/GetSubjectsByYear/",
+                data: { year: $(this).val() },
+                method: 'get',
+                success: function (subjects) {
+          
+                    $.each(subjects, function (i, sub) {
+                        var option = new Option(sub.SubName, sub.Id);
+                        subj.append(option);
+
+                    });
+                },
+            });
+        });
+        
+        $("#btnGetAttendence").click(function () {
+            if ($("#Year").val() == "") {
+                alert('please select year');
+                return false;
+            }
+           
+            $.ajax({
+                url: "/StudentAttendence/GetAttendenceByStudent",
+                data: {subId: $("#Subject").val(), fromDate: $('#fromDate').val(), toDate: $('#toDate').val() },
+                method: "get",
+                dataType: "json",
+                success: function (attendence) {
+                    var tblAttendence = $('#tblAttendence');
+                    
+                    tblAttendence.empty();
+                    $.each(attendence, function (index, element) {
+                        
+                        var status = "";
+                        if (element.AttStatus == "P") status = "Present";
+                        else if (element.AttStatus == "A") status = "Absent";
+                        else if (element.AttStatus == "L") status = "Leave";
+                        tblAttendence.append(`
+                             <tr>
+                                <td>
+                                    ${element.AttDate}
+                                </td>
+                                <td>
+                                    ${status}
+                                </td>
+                            </tr>
+                        `)
+                    })
+
+                },
+                error: function (xhr) {
+                    alert(xhr.statusText);
+                }
+            });
+        });
+    });
+    
+    //function addAttandence(attId, attStatus) {
+
+    //    $.ajax({
+    //        url: "/Attendence/AddAttendance",
+    //        data: { Id: attId, AttendanceStatus: attStatus, AttDate: $('#AttDate').val() },// AttDate: $('#AttDate').val()
+    //        method: "post",
+    //        success: function (res) {
+
+    //        }
+    //    });
+    //}
+</script>
+
+

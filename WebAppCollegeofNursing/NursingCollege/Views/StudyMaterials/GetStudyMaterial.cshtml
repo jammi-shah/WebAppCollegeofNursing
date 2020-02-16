@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ModelLayer.StudyMaterial>
+
+@{
+    ViewBag.Title = "GetStudyMaterial";
+
+   
+}
+
+<h2>Study Materials</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Topic)
+        </th>
+       
+        <th>
+            @Html.DisplayName("Subject")
+        </th>
+        <th>
+            @Html.DisplayName("Uploaded By")
+        </th>
+        <th></th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Topic)
+        </td>
+      
+        <td>
+            @Html.DisplayFor(modelItem => item.Subject.SubName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserAccount.Name)
+        </td>
+        <td>
+            @Html.ActionLink("View More", "MyStudyMaterialDetails", new { id = item.Id })
+          
+        </td>
+       
+    </tr>
+}
+
+</table>
